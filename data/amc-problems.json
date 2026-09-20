@@ -869,7 +869,15 @@
     "question": "1. A right triangle has a leg of length 63 and a hypotenuse of length 65. What is its\nperimeter?\n(A) 140 (B) 142 (C) 144 (D) 146 (E) 148",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-02-page-1.jpg"
+    "image": "problem-pages/mock-amc10-02-page-1.jpg",
+    "latex_question": "A right triangle has a leg of length $63$ and a hypotenuse of length $65$. What is its perimeter?",
+    "latex_choices": [
+      "140",
+      "142",
+      "144",
+      "146",
+      "148"
+    ]
   },
   {
     "id": "mock-amc10-02-02",
@@ -881,7 +889,15 @@
     "question": "2. Medium Z has 2 types of pets: Big Zs and Little Zs. Big Zs have 3 heads and 4 legs,\nand Little Zs have 2 heads and 2 legs. If there are total number of 29 heads and 34 legs\namong Medium Zs pets, then how many Little Zs does Medium Z have?\n(A) 3 (B) 4 (C) 5 (D) 6 (E) 7",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-02-page-1.jpg"
+    "image": "problem-pages/mock-amc10-02-page-1.jpg",
+    "latex_question": "Medium Z has 2 types of pets: Big Zs and Little Zs. Big Zs have 3 heads and 4 legs, and Little Zs have 2 heads and 2 legs. If there are total number of 29 heads and 34 legs among Medium Zs pets, then how many Little Zs does Medium Z have?",
+    "latex_choices": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
   },
   {
     "id": "mock-amc10-02-03",
@@ -893,7 +909,15 @@
     "question": "3. Find the sum of the 20th, 202nd, and 2020th terms in this arithmetic sequence:\n1, 5, 9, 13, . . .\n(A) 8955 (B) 8959 (C) 8963 (D) 8967 (E) 8971",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-02-page-1.jpg"
+    "image": "problem-pages/mock-amc10-02-page-1.jpg",
+    "latex_question": "Find the sum of the $20$th, $202$nd, and $2020$th terms in this arithmetic sequence: $1, 5, 9, 13, \\dots$",
+    "latex_choices": [
+      "8955",
+      "8959",
+      "8963",
+      "8967",
+      "8971"
+    ]
   },
   {
     "id": "mock-amc10-02-04",
@@ -905,7 +929,15 @@
     "question": "4. What is the value of\n\u0010\n3 + 2\n√\n2\n\u0011\n+\n \n1\n3 − 2\n√\n2\n!\n+\n\u0010\n3 − 2\n√\n2\n\u0011\n+\n \n1\n3 + 2\n√\n2\n!\n?\n(A) 4\n√\n2 (B) 6 (C) 8\n√\n2 (D) 6 + 4\n√\n2 (E) 12",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-02-page-1.jpg"
+    "image": "problem-pages/mock-amc10-02-page-1.jpg",
+    "latex_question": "What is the value of$$\\left(3+2\\sqrt{2}\\right)+\\left(\\frac{1}{3-2\\sqrt{2}}\\right)+\\left(3-2\\sqrt{2}\\right)+\\left(\\frac{1}{3+2\\sqrt{2}}\\right)?$$",
+    "latex_choices": [
+      "$4\\sqrt{2}$",
+      "6",
+      "$8\\sqrt{2}$",
+      "$6+4\\sqrt{2}$",
+      "12"
+    ]
   },
   {
     "id": "mock-amc10-02-05",
@@ -917,7 +949,15 @@
     "question": "5. On a ten-question True/False test, Neel only knows the answer to three of the questions!\nAs a result, he flips a fair coin to determine his answers for the rest of the questions. Given\nthat a passing grade is anything above 60% in Neel’s school and that he correctly answers\nall three questions where he knows the answer to, what is the probability that Neel passes\nthe test?\n(A) 11\n64 (B) 29\n128 (C) 193\n512 (D) 1\n2 (E) 99\n128",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-02-page-1.jpg"
+    "image": "problem-pages/mock-amc10-02-page-1.jpg",
+    "latex_question": "On a ten-question True/False test, Neel only knows the answer to three of the questions! As a result, he flips a fair coin to determine his answers for the rest of the questions. Given that a passing grade is anything above $60\\%$ in Neel's school and that he correctly answers all three questions where he knows the answer to, what is the probability that Neel passes the test?",
+    "latex_choices": [
+      "$\\frac{11}{64}$",
+      "$\\frac{29}{128}$",
+      "$\\frac{193}{512}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{99}{128}$"
+    ]
   },
   {
     "id": "mock-amc10-02-06",
@@ -929,7 +969,15 @@
     "question": "6. Given that a, b, and c are not necessarily distinct prime numbers, how many solutions\nare there to a(a + b + c) = 48?\n(A) 2 (B) 4 (C) 5 (D) 7 (E) 8",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-02-page-2.jpg"
+    "image": "problem-pages/mock-amc10-02-page-2.jpg",
+    "latex_question": "Given that $a, b,$ and $c$ are not necessarily distinct prime numbers, how many solutions are there to $a(a+b+c)=48?$",
+    "latex_choices": [
+      "2",
+      "4",
+      "5",
+      "7",
+      "8"
+    ]
   },
   {
     "id": "mock-amc10-02-07",
@@ -941,7 +989,15 @@
     "question": "7. Let ABC be an equilateral triangle. Next, let D be on the extension of BC past point\nB such that ̸ BAD = 30◦, and let E be on the extension of BC past point C such that\n̸ EAC = 30◦. If BC = 2, what is the area of DAE?\n(A) 2\n√\n2 (B) 3 (C) 2\n√\n3 (D) 3\n√\n3 (E) 6",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-02-page-2.jpg"
+    "image": "problem-pages/mock-amc10-02-page-2.jpg",
+    "latex_question": "Let $ABC$ be an equilateral triangle. Next, let $D$ be on the extension of $\\overline{BC}$ past point $B$ such that $\\angle BAD = 30^{\\circ}$, and let $E$ be on the extension of $\\overline{BC}$ past point $C$ such that $\\angle EAC = 30^{\\circ}$. If $BC = 2$, what is the area of $DAE$?",
+    "latex_choices": [
+      "$2\\sqrt{2}$",
+      "3",
+      "$2\\sqrt{3}$",
+      "$3\\sqrt{3}$",
+      "6"
+    ]
   },
   {
     "id": "mock-amc10-02-08",
@@ -953,7 +1009,15 @@
     "question": "8. What is the value of 1 · 2 + 2 · 3 + 3 · 4 + · · · + 15 · 16?\n(A) 1320 (B) 1340 (C) 1360 (D) 1380 (E) 1400",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-02-page-2.jpg"
+    "image": "problem-pages/mock-amc10-02-page-2.jpg",
+    "latex_question": "What is the value of $1\\cdot 2+2 \\cdot 3+3\\cdot 4+\\cdots+15\\cdot 16$?",
+    "latex_choices": [
+      "1320",
+      "1340",
+      "1360",
+      "1380",
+      "1400"
+    ]
   },
   {
     "id": "mock-amc10-02-09",
@@ -965,7 +1029,15 @@
     "question": "9. Call an ordered pair of positive primes ( a, b) cool if a = b − 10. Suppose that for some\ninteger n, there exists a list of primes P1, P2, . . . , Pn such that ( Pi, Pi+1) is cool for all\n1 ≤ i ≤ n − 1. What is the largest possible value of n?\n(A) 2 (B) 3 (C) 4 (D) 5 (E) 10",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-02-page-2.jpg"
+    "image": "problem-pages/mock-amc10-02-page-2.jpg",
+    "latex_question": "Call an ordered pair of positive primes $(a,b)$ $\\textit{cool}$ if $a=b-10$. Suppose that for some integer $n$, there exists a list of primes $P_1, P_2,\\dots, P_n$ such that $(P_i, P_{i+1})$ is $\\textit{cool}$ for all $1\\leq i \\leq n-1$. What is the largest possible value of $n$?",
+    "latex_choices": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "10"
+    ]
   },
   {
     "id": "mock-amc10-02-10",
@@ -977,7 +1049,15 @@
     "question": "10. At Lexington High School, it is customary for people to not use adjacent stalls in a\nbathroom. Some (possibly empty) subset of five different kids want to use a row of four\nstalls at the same time. In how many ways can they do so?\n(A) 53 (B) 57 (C) 81 (D) 93 (E) 141",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-02-page-2.jpg"
+    "image": "problem-pages/mock-amc10-02-page-2.jpg",
+    "latex_question": "At Lexington High School, it is customary for people to not use adjacent stalls in a bathroom. Some (possibly empty) subset of five different kids want to use a row of four stalls at the same time. In how many ways can they do so?",
+    "latex_choices": [
+      "53",
+      "57",
+      "81",
+      "93",
+      "141"
+    ]
   },
   {
     "id": "mock-amc10-02-11",
@@ -989,7 +1069,15 @@
     "question": "11. In how many ways can 720 be written as the product of two positive integers with a\ndiffering number of digits? (The order of the two integers does not matter.)\n(A) 3 (B) 6 (C) 7 (D) 8 (E) 9",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-02-page-2.jpg"
+    "image": "problem-pages/mock-amc10-02-page-2.jpg",
+    "latex_question": "In how many ways can $720$ be written as the product of two positive integers with a differing number of digits? (The order of the two integers does not matter.)",
+    "latex_choices": [
+      "3",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
   },
   {
     "id": "mock-amc10-02-12",
@@ -1001,7 +1089,15 @@
     "question": "12. To celebrate Bela’s birthday, Jenn decides to make a cake in the shape of a right\ncylinder with a radius of 2 and a height of 10. Strangely, Jenn covers the entire outside\n(including the bottom) of the cake with frosting and cuts the cake such that each cut\nis parallel to the base of the cake, and each resulting slice is a cylinder. There is only\nsponge and no frosting on the inside of the cake. On each slice, Jenn wants the amount\nof frosting to be the same. If Jenn cuts the cake into 8 parts, what is the height of the\nslice that contains the top of the cake? (Assume the frosting has negligible thickness.)\n(A) 1\n4 (B) 1\n2 (C) 2\n3 (D) 1 (E) 6\n5",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-02-page-3.jpg"
+    "image": "problem-pages/mock-amc10-02-page-3.jpg",
+    "latex_question": "To celebrate Bela's birthday, Jenn decides to make a cake in the shape of a right cylinder with a radius of $2$ and a height of $10$. Strangely, Jenn covers the entire outside (including the bottom) of the cake with frosting and cuts the cake such that each cut is parallel to the base of the cake, and each resulting slice is a cylinder. There is only sponge and no frosting on the inside of the cake. On each slice, Jenn wants the amount of frosting to be the same. If Jenn cuts the cake into $8$ parts, what is the height of the slice that contains the top of the cake? (Assume the frosting has negligible thickness.)",
+    "latex_choices": [
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{2}{3}$",
+      "1",
+      "$\\frac{6}{5}$"
+    ]
   },
   {
     "id": "mock-amc10-02-13",
@@ -1013,7 +1109,15 @@
     "question": "13. Five students, Aidan, Andrew, Kevin, Eddie, and Andy, arm wrestle each other. Every\ntwo participants play against each other in exactly one match. How many possible sets\nof outcomes are there if Kevin wins every match he plays, Eddie loses every match he\nplays, and one of the five students wins exactly three matches?\n(A) 1 (B) 2 (C) 3 (D) 6 (E) 8",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-02-page-3.jpg"
+    "image": "problem-pages/mock-amc10-02-page-3.jpg",
+    "latex_question": "Five students, Aidan, Andrew, Kevin, Eddie, and Andy, arm wrestle each other. Every two participants play against each other in exactly one match. How many possible sets of outcomes are there if Kevin wins every match he plays, Eddie loses every match he plays, and one of the five students wins exactly three matches?",
+    "latex_choices": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "8"
+    ]
   },
   {
     "id": "mock-amc10-02-14",
@@ -1025,7 +1129,15 @@
     "question": "14. Every element in nonempty set S is a distinct nonnegative integer less than or equal\nto 16. The product of the elements is not divisible by 8 and there are at most 2 odd\nnumbers in S. Let N be the number of possible sets that can be S. Find the sum of the\ndigits of N.\n(A) 12 (B) 13 (C) 15 (D) 16 (E) 17",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-02-page-3.jpg"
+    "image": "problem-pages/mock-amc10-02-page-3.jpg",
+    "latex_question": "Every element in nonempty set $S$ is a distinct nonnegative integer less than or equal to $16$. The product of the elements is not divisible by $8$ and there are at most $2$ odd numbers in $S$. Let $N$ be the number of possible sets that can be $S$. Find the sum of the digits of $N$.",
+    "latex_choices": [
+      "12",
+      "13",
+      "15",
+      "16",
+      "17"
+    ]
   },
   {
     "id": "mock-amc10-02-15",
@@ -1037,7 +1149,15 @@
     "question": "15. In an infinitely populated alternate world, Andrew has finally won a video game, and\nhe is dying to tell everyone about it. On day 1, he calls 6 of his friends, and tells them\nabout it. Each day afterwards, each person who was just informed calls 6 of their friends\nwho have not been informed yet. Let n be the amount of informed people by the end of\nthe 224th day, including Andrew. What is the remainder when n is divided by 11?\n(A) 4 (B) 5 (C) 6 (D) 7 (E) 8",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-02-page-3.jpg"
+    "image": "problem-pages/mock-amc10-02-page-3.jpg",
+    "latex_question": "In an infinitely populated alternate world, Andrew has finally won a video game, and he is dying to tell everyone about it. On day 1, he calls $6$ of his friends, and tells them about it. Each day afterwards, each person who was just informed calls $6$ of their friends who have not been informed yet. Let $n$ be the amount of informed people by the end of the $224$th day, including Andrew. What is the remainder when $n$ is divided by $11$?",
+    "latex_choices": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
   },
   {
     "id": "mock-amc10-02-16",
@@ -1049,7 +1169,15 @@
     "question": "16. Alice and Bob play a game. Alice goes first and they alternate between turns. In this\ngame, an unfair coin is flipped. Alice wins if it is her turn and she flips heads; Bob wins if\nit is his turn and he flips tails. If the game is a fair game (i.e. both players have an equal\nchance of winning), what is the probability that the coin flips heads on a given flip?\n(A)\n√\n5−1\n4 (B) 1\n3 (C) 3−\n√\n5\n2 (D) 2\n5 (E) 1\n2",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-02-page-3.jpg"
+    "image": "problem-pages/mock-amc10-02-page-3.jpg",
+    "latex_question": "Alice and Bob play a game. Alice goes first and they alternate between turns. In this game, an unfair coin is flipped. Alice wins if it is her turn and she flips heads; Bob wins if it is his turn and he flips tails. If the game is a fair game (i.e. both players have an equal chance of winning), what is the probability that the coin flips heads on a given flip?",
+    "latex_choices": [
+      "$\\frac{\\sqrt{5}-1}{4}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{3-\\sqrt{5}}{2}$",
+      "$\\frac{2}{5}$",
+      "$\\frac{1}{2}$"
+    ]
   },
   {
     "id": "mock-amc10-02-17",
@@ -1061,7 +1189,15 @@
     "question": "17. Let τ be a function such that for all positive integers n, τ(n) denotes the number of\npositive divisors n has. Given that there are two possible values of n such that τ(n + 1)−\nτ(n) ≥ 14, where n < 200, what is the sum of the digits of the smaller value of n?\n(A) 10 (B) 11 (C) 14 (D) 16 (E) 17",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-02-page-4.jpg"
+    "image": "problem-pages/mock-amc10-02-page-4.jpg",
+    "latex_question": "Let $\\tau$ be a function such that for all positive integers $n$, $\\tau(n)$ denotes the number of positive divisors $n$ has. Given that there are two possible values of $n$ such that $\\tau(n+1)-\\tau(n)\\geq14$, where $n<200$, what is the sum of the digits of the smaller value of $n$?",
+    "latex_choices": [
+      "10",
+      "11",
+      "14",
+      "16",
+      "17"
+    ]
   },
   {
     "id": "mock-amc10-02-18",
@@ -1073,7 +1209,15 @@
     "question": "18. Let s(n) denote the number of ways to partition n into two or more positive integers\nsuch that order matters (e.g. partitioning 10 into 3 + 7 is different from 7 + 3). The value\nof\ns(1) + s(2) + · · · + s(2020)\ncan be expressed as 2 a − b, where a and b are positive integers and a + b is as small as\npossible. What is 10 a + b?\n(A) 4041 (B) 222041 (C) 22221 (D) 22311 (E) 22441",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-02-page-4.jpg"
+    "image": "problem-pages/mock-amc10-02-page-4.jpg",
+    "latex_question": "Let $s(n)$ denote the number of ways to partition $n$ into two or more positive integers such that order matters (e.g. partitioning $10$ into $3+7$ is different from $7+3$). The value of\n$$s(1)+s(2)+\\cdots +s(2020)$$can be expressed as $2^a-b$, where $a$ and $b$ are positive integers and $a+b$ is as small as possible. What is $10a+b$?",
+    "latex_choices": [
+      "4041",
+      "222041",
+      "22221",
+      "22311",
+      "22441"
+    ]
   },
   {
     "id": "mock-amc10-02-19",
@@ -1085,7 +1229,15 @@
     "question": "19. Big Zhao and Little Zhao are playing a game where they take turns tiling a n by n\nplane with circular tiles of radius n\n10 where n ≥ 20. No tiles can overlap or go off the edge.\nA player wins in this game if the other player is unable to place a tile during their turn.\nIf Big Zhao starts first, and both players play using optimal strategy, who will win?\n(A) Little Zhao will always win. (B) Big Zhao will always win. (C) Little Zhao\nwill win if and only if [ n\nπ] is even (D) Big Zhao will win if and only if [ n\nπ] is even\n(E) Little Zhao will win if and only if n ≤ 100",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-02-page-4.jpg"
+    "image": "problem-pages/mock-amc10-02-page-4.jpg",
+    "latex_question": "Big Zhao and Little Zhao are playing a game where they take turns tiling a $n$ by $n$ plane with circular tiles of radius $\\frac{n}{10}$ where $n\\ge 20$. No tiles can overlap or go off the edge. A player wins in this game if the other player is unable to place a tile during their turn. If Big Zhao starts first, and both players play using optimal strategy, who will win?",
+    "latex_choices": [
+      "Little Zhao will always win.",
+      "Big Zhao will always win.",
+      "Little Zhao will win if and only if $[\\frac{n}{\\pi}]$ is even",
+      "Big Zhao will win if and only if $[\\frac{n}{\\pi}]$ is even",
+      "Little Zhao will win if and only if $n \\le 100$"
+    ]
   },
   {
     "id": "mock-amc10-02-20",
@@ -1097,7 +1249,15 @@
     "question": "20. There are M polynomials P (x) such that, for all real values of x,\n(x3 + x2 − 4x − 4) · P (x) = (x − 4) · P (x2),\nand the leading coefficient of P (x) is an integer with an absolute value of at most 5.\nSuppose the sum of all possible values of P (3) is N. What is M + N?\n(A) 1 (B) 9 (C) 10 (D) 11 (E) 264",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-02-page-4.jpg"
+    "image": "problem-pages/mock-amc10-02-page-4.jpg",
+    "latex_question": "There are $M$ polynomials $P(x)$ such that, for all real values of $x$,$$(x^3+x^2-4x-4)\\cdot P(x)=(x-4)\\cdot P(x^2),$$and the leading coefficient of $P(x)$ is an integer with an absolute value of at most $5$. Suppose the sum of all possible values of $P(3)$ is $N$. What is $M+N$?",
+    "latex_choices": [
+      "1",
+      "9",
+      "10",
+      "11",
+      "264"
+    ]
   },
   {
     "id": "mock-amc10-02-21",
@@ -1109,7 +1269,15 @@
     "question": "21. Denote point C on circle ω with diameter AB. The tangent lines to ω from A and C\nintersect at point D, with BC = 5 and CD = AD = 3. What is the length of AB?\n(A) 6 (B) 3\n√\n5 (C) 5\n√\n2 (D) 6\n√\n2 (E) 9\n√\n3",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-02-page-4.jpg"
+    "image": "problem-pages/mock-amc10-02-page-4.jpg",
+    "latex_question": "Denote point $C$ on circle $\\omega$ with diameter $\\overline{AB}$. The tangent lines to $\\omega$ from $A$ and $C$ intersect at point $D$, with $BC=5$ and $CD=AD=3$. What is the length of $\\overline{AB}$?",
+    "latex_choices": [
+      "6",
+      "$3\\sqrt{5}$",
+      "$5\\sqrt{2}$",
+      "$6\\sqrt{2}$",
+      "$9\\sqrt{3}$"
+    ]
   },
   {
     "id": "mock-amc10-02-22",
@@ -1121,7 +1289,15 @@
     "question": "22. Given the polynomial x3 + 6x2 + 5x − 7 with roots r1, r2, and r3, what is the value of\n\u0012 1\nr1\n+ 1\nr2\n+ 1\nr3\n\u0013\n· (r2\n1 − 3r1 + 2) · (r2\n2 − 3r2 + 2) · (r2\n3 − 3r3 + 2)?\n(A) 25 (B) 50 (C) 75 (D) 90 (E) 125",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 5,
-    "image": "problem-pages/mock-amc10-02-page-5.jpg"
+    "image": "problem-pages/mock-amc10-02-page-5.jpg",
+    "latex_question": "Given the polynomial $x^3 + 6 x^2 + 5x - 7$ with roots $r_1$, $r_2$, and $r_3$, what is the value of$$\\left(\\frac{1}{r_1}+\\frac{1}{r_2}+\\frac{1}{r_3}\\right)\\cdot (r_1^2-3r_1+2)\\cdot (r_2^2-3r_2+2)\\cdot (r_3^2-3r_3+2)?$$",
+    "latex_choices": [
+      "25",
+      "50",
+      "75",
+      "90",
+      "125"
+    ]
   },
   {
     "id": "mock-amc10-02-23",
@@ -1133,7 +1309,15 @@
     "question": "23. In convex quadrilateral ABCD , ̸ A = 90◦, ̸ C = 60◦, ̸ ABD = 25◦, and ̸ BDC = 5◦.\nGiven that AB = 4\n√\n3, find the area of quadrilateral ABCD .\n(A) 4 (B) 4\n√\n3 (C) 8 (D) 8\n√\n3 (E) 16\n√\n3",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 5,
-    "image": "problem-pages/mock-amc10-02-page-5.jpg"
+    "image": "problem-pages/mock-amc10-02-page-5.jpg",
+    "latex_question": "In convex quadrilateral $ABCD$, $\\angle{A}=90^{\\circ}$, $\\angle{C}=60^{\\circ}$, $\\angle{ABD}=25^{\\circ}$, and $\\angle{BDC}=5^{\\circ}$. Given that $AB=4\\sqrt{3}$, find the area of quadrilateral $ABCD$.",
+    "latex_choices": [
+      "4",
+      "$4\\sqrt{3}$",
+      "8",
+      "$8\\sqrt{3}$",
+      "$16\\sqrt{3}$"
+    ]
   },
   {
     "id": "mock-amc10-02-24",
@@ -1145,7 +1329,15 @@
     "question": "24. △ABC has AB = 49, AC = 35, and BC = 56. Denote D as the foot of the altitude\nfrom A to BC, E as the foot of the altitude from B to AC, and F as the foot of the\naltitude from C to AB. Let G be the intersection of EF and AD. Let EG : GF be in\nthe form m\nn where m and n are relatively prime integers. What is m + n?\n(A) 100 (B) 101 (C) 102 (D) 103 (E) 104",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 5,
-    "image": "problem-pages/mock-amc10-02-page-5.jpg"
+    "image": "problem-pages/mock-amc10-02-page-5.jpg",
+    "latex_question": "$\\triangle{ABC}$ has $AB=49$, $AC=35$, and $BC=56$. Denote $D$ as the foot of the altitude from $A$ to $\\overline{BC}$, $E$ as the foot of the altitude from $B$ to $\\overline{AC}$, and $F$ as the foot of the altitude from $C$ to $\\overline{AB}$. Let $G$ be the intersection of $\\overline{EF}$ and $\\overline{AD}$. Let $EG:GF$ be in the form $\\frac{m}{n}$ where $m$ and $n$ are relatively prime integers. What is $m+n$?",
+    "latex_choices": [
+      "100",
+      "101",
+      "102",
+      "103",
+      "104"
+    ]
   },
   {
     "id": "mock-amc10-02-25",
@@ -1157,7 +1349,15 @@
     "question": "25. Define s(k) as the period of the decimal expansion of 1\nk. Let S be the set of integers\nthat are greater than 1 and can be written in the form 3a·7b, where a and b are nonnegative\nintegers. What is the value of 1\ns(k) summed over all k ∈ S?\n(A) 19\n6 (B) 229\n72 (C) 27\n8 (D) 11\n3 (E) 271\n72",
     "source": "mock-tests/mock-amc10-02.pdf",
     "page": 5,
-    "image": "problem-pages/mock-amc10-02-page-5.jpg"
+    "image": "problem-pages/mock-amc10-02-page-5.jpg",
+    "latex_question": "Define $s(k)$ as the period of the decimal expansion of $\\frac{1}{k}$. Let $S$ be the set of integers that are greater than $1$ and can be written in the form $3^a \\cdot 7^b$, where $a$ and $b$ are nonnegative integers. What is the value of $\\frac{1}{s(k)}$ summed over all $k \\in S$?",
+    "latex_choices": [
+      "$\\frac{19}{6}$",
+      "$\\frac{229}{72}$",
+      "$\\frac{27}{8}$",
+      "$\\frac{11}{3}$",
+      "$\\frac{271}{72}$"
+    ]
   },
   {
     "id": "mock-amc10-03-01",
@@ -1169,7 +1369,15 @@
     "question": "1. In square ABCD , let M be the midpoint of side CD, and let N be the reflection of\nM over side AB. What fraction of △M N D lies within ABCD ?\n(A) 1\n2 (B) 5\n8 (C) 2\n3 (D) 3\n4 (E) 7\n8",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-03-page-1.jpg"
+    "image": "problem-pages/mock-amc10-03-page-1.jpg",
+    "latex_question": "In square $ABCD$, let $M$ be the midpoint of side $\\overline{CD}$, and let $N$ be the reflection of $M$ over side $\\overline{AB}$. What fraction of $\\triangle MND$ lies within $ABCD$?",
+    "latex_choices": [
+      "$\\frac{1}{2}$",
+      "$\\frac{5}{8}$",
+      "$\\frac{2}{3}$",
+      "$\\frac{3}{4}$",
+      "$\\frac{7}{8}$"
+    ]
   },
   {
     "id": "mock-amc10-03-02",
@@ -1181,7 +1389,15 @@
     "question": "2. Jack is reading a 100 page book. He reads two pages every minute. After every 12\npages he reads, he takes a one minute break, and then he goes back to reading. If Jack\nstarts reading at 2 : 00, what time will it be when he finishes reading his book?\n(A) 2 : 32 (B) 2 : 56 (C) 2 : 58 (D) 3 : 05 (E) 3 : 18",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-03-page-1.jpg"
+    "image": "problem-pages/mock-amc10-03-page-1.jpg",
+    "latex_question": "Jack is reading a $100$ page book. He reads two pages every minute. After every $12$ pages he reads, he takes a one minute break, and then he goes back to reading. If Jack starts reading at $\\text{2:00}$, what time will it be when he finishes reading his book?",
+    "latex_choices": [
+      "$2:32$",
+      "$2:56$",
+      "$2:58$",
+      "$3:05$",
+      "$3:18$"
+    ]
   },
   {
     "id": "mock-amc10-03-03",
@@ -1193,7 +1409,15 @@
     "question": "3. Let a be the the largest solution to the equation\n(x2 + 6x + 8)(x2 − 16x + 55) = 0,\nand let b be the smallest solution. What is a − b?\n(A) 15 (B) 16 (C) 17 (D) 18 (E) 22",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-03-page-1.jpg"
+    "image": "problem-pages/mock-amc10-03-page-1.jpg",
+    "latex_question": "Let $a$ be the the largest solution to the equation$$(x^2+6x+8)(x^2-16x+55)=0,$$and let $b$ be the smallest solution. What is $a-b$?",
+    "latex_choices": [
+      "15",
+      "16",
+      "17",
+      "18",
+      "22"
+    ]
   },
   {
     "id": "mock-amc10-03-04",
@@ -1205,7 +1429,15 @@
     "question": "4. Pedro currently has 2 quarters, 3 dimes and 2 pennies. If he can only obtain quarters,\ndimes, nickels, and pennies, what is the minimum number of coins he needs to earn in\norder to reach a total of exactly 1 dollar?\n(A) 2 (B) 4 (C) 5 (D) 6 (E) 10",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-03-page-1.jpg"
+    "image": "problem-pages/mock-amc10-03-page-1.jpg",
+    "latex_question": "Pedro currently has $2$ quarters, $3$ dimes and $2$ pennies. If he can only obtain quarters, dimes, nickels, and pennies, what is the minimum number of coins he needs to earn in order to reach a total of exactly $1$ dollar?",
+    "latex_choices": [
+      "2",
+      "4",
+      "5",
+      "6",
+      "10"
+    ]
   },
   {
     "id": "mock-amc10-03-05",
@@ -1217,7 +1449,15 @@
     "question": "5. 15 students are to be randomly split into 5 groups of 3 to work on a project. Alice,\nBob, and Cooper are three of the students. Given that Alice and Bob are in the same\ngroup, what is the probability that Cooper is not in that group?\n(A) 4\n7 (B) 3\n4 (C) 4\n5 (D) 8\n9 (E) 12\n13",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-03-page-1.jpg"
+    "image": "problem-pages/mock-amc10-03-page-1.jpg",
+    "latex_question": "$15$ students are to be randomly split into $5$ groups of $3$ to work on a project. Alice, Bob, and Cooper are three of the students. Given that Alice and Bob are in the same group, what is the probability that Cooper is not in that group?",
+    "latex_choices": [
+      "$\\frac{4}{7}$",
+      "$\\frac{3}{4}$",
+      "$\\frac{4}{5}$",
+      "$\\frac{8}{9}$",
+      "$\\frac{12}{13}$"
+    ]
   },
   {
     "id": "mock-amc10-03-06",
@@ -1229,7 +1469,15 @@
     "question": "6. Mark wants to distribute all 100 pieces of his candy to his five children, Albert, Bob,\nCharlie, Diana and Ethan. Diana and Ethan insist on each having a prime number of\ncandies whose sum is also a prime number. Charlie insists on having exactly 35 candies,\nexactly 1 more than Albert and Bob’s amounts combined. Given that Ethan has the\nsmallest number of candies, how many candies must Mark give to Diana?\n(A) 3 (B) 7 (C) 17 (D) 23 (E) 29",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-03-page-2.jpg"
+    "image": "problem-pages/mock-amc10-03-page-2.jpg",
+    "latex_question": "Mark wants to distribute all $100$ pieces of his candy to his five children, Albert, Bob, Charlie, Diana and Ethan. Diana and Ethan insist on each having a prime number of candies whose sum is also a prime number. Charlie insists on having exactly $35$ candies, exactly $1$ more than Albert and Bob's amounts combined. Given that Ethan has the smallest number of candies, how many candies must Mark give to Diana?",
+    "latex_choices": [
+      "3",
+      "7",
+      "17",
+      "23",
+      "29"
+    ]
   },
   {
     "id": "mock-amc10-03-07",
@@ -1241,7 +1489,15 @@
     "question": "7. When all 9 diagonals of a regular hexagon are drawn, they partition the hexagon into\nsome number of individual regions. What percent of these regions are triangular?\n(A) 25% (B) 37.5% (C) 50% (D) 62.5% (E) 75%",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-03-page-2.jpg"
+    "image": "problem-pages/mock-amc10-03-page-2.jpg",
+    "latex_question": "When all $9$ diagonals of a regular hexagon are drawn, they partition the hexagon into some number of individual regions. What percent of these regions are triangular?",
+    "latex_choices": [
+      "$25\\%$",
+      "$37.5\\%$",
+      "$50\\%$",
+      "$62.5\\%$",
+      "$75\\%$"
+    ]
   },
   {
     "id": "mock-amc10-03-08",
@@ -1253,7 +1509,15 @@
     "question": "8. A 3-step staircase is shown below, where each side of each square is of unit length.\nExtend this pattern to create two 2021-step staircases. When these two staircases are fit\ntogether to form a 2021 × 2022 rectangle, the two staircases meet each other at a crease\nof length L. What is L? (In the resulting rectangle, a crease is defined as the total length\nof the segments touched by both of the original staircases.)\n(A) 2022 (B) 2023 (C) 4041 (D) 4042 (E) 4043",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-03-page-2.jpg"
+    "image": "problem-pages/mock-amc10-03-page-2.jpg",
+    "latex_question": "A $3$-step staircase is shown below, where each side of each square is of unit length.\n\\begin{center}\n\\begin{asy}\nunitsize(30); for(int i=0; i<3; i+=1) { draw((0,i+0.05)--(0,i+0.95)); draw((i+0.05,0)--(i+0.95,0)); for(int j=0; j<3-i; j+=1) { draw((i+1,j+0.05)--(i+1,j+0.95)); draw((i+0.05,j+1)--(i+0.95,j+1)); } }\n\\end{asy}\n\\end{center}\nExtend this pattern to create two $2021$-step staircases. When these two staircases are fit together to form a $2021\\times 2022$ rectangle, the two staircases meet each other at a crease of length $L$. What is $L$? (In the resulting rectangle, a crease is defined as the total length of the segments touched by both of the original staircases.)",
+    "latex_choices": [
+      "2022",
+      "2023",
+      "4041",
+      "4042",
+      "4043"
+    ]
   },
   {
     "id": "mock-amc10-03-09",
@@ -1265,7 +1529,15 @@
     "question": "9. Let the area of equilateral △ABC be 9. Let O denote the center of its circumcircle. Let\nω1 and ω2 be circles centered at A and B, respectively, such that they both pass through\nO. Let ω1 and ω2 intersect at P , distinct from O. What is the area of CBP A?\n(A) 6\n√\n3 (B) 12 (C) 8\n√\n3 (D) 9\n√\n3 (E) 15",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-03-page-2.jpg"
+    "image": "problem-pages/mock-amc10-03-page-2.jpg",
+    "latex_question": "Let the area of equilateral $\\triangle ABC$ be $9$. Let $O$ denote the center of its circumcircle. Let $\\omega_1$ and $\\omega_2$ be circles centered at $A$ and $B$, respectively, such that they both pass through $O$. Let $\\omega_1$ and $\\omega_2$ intersect at $P$, distinct from $O$. What is the area of $CBPA$?",
+    "latex_choices": [
+      "$6\\sqrt{3}$",
+      "12",
+      "$8\\sqrt{3}$",
+      "$9\\sqrt{3}$",
+      "15"
+    ]
   },
   {
     "id": "mock-amc10-03-10",
@@ -1277,7 +1549,15 @@
     "question": "10. In a regular hexagon with side length 2, three of the sides are chosen at random.\nNext, the midpoints of each of the chosen sides are drawn. What is the probability that\nthe triangle formed by the three midpoints has a perimeter which is an integer?\n(A) 1\n10 (B) 1\n5 (C) 1\n4 (D) 2\n5 (E) 1\n2",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-03-page-3.jpg"
+    "image": "problem-pages/mock-amc10-03-page-3.jpg",
+    "latex_question": "In a regular hexagon with side length $2$, three of the sides are chosen at random. Next, the midpoints of each of the chosen sides are drawn. What is the probability that the triangle formed by the three midpoints has a perimeter which is an integer?",
+    "latex_choices": [
+      "$\\frac{1}{10}$",
+      "$\\frac{1}{5}$",
+      "$\\frac{1}{4}$",
+      "$\\frac{2}{5}$",
+      "$\\frac{1}{2}$"
+    ]
   },
   {
     "id": "mock-amc10-03-11",
@@ -1289,7 +1569,15 @@
     "question": "11. A positive integer is called a flake if it has at least three distinct prime factors. Two\nflakes are defined to be in a snowflake if there exists a prime that is divisible by the\ngreatest common divisor of the two flakes. When two flakes in a snowflake are multiplied,\nwhat is the smallest possible number of divisors in the resulting number?\n(A) 18 (B) 27 (C) 48 (D) 54 (E) 64",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-03-page-3.jpg"
+    "image": "problem-pages/mock-amc10-03-page-3.jpg",
+    "latex_question": "A positive integer is called a $\\textit{flake}$ if it has at least three distinct prime factors. Two flakes are defined to be in a $\\textit{snowflake}$ if there exists a prime that is divisible by the greatest common divisor of the two flakes. When two flakes in a snowflake are multiplied, what is the smallest possible number of divisors in the resulting number?",
+    "latex_choices": [
+      "18",
+      "27",
+      "48",
+      "54",
+      "64"
+    ]
   },
   {
     "id": "mock-amc10-03-12",
@@ -1301,7 +1589,15 @@
     "question": "12. A group of people are in a room. It is given that 5 people have a pet dog, 6 people\nhave a pet cat, 8 people have a pet fish, and 3 people have no pets. If no one has more\nthan two pets, and no one has more than one of the same type of pet, what is the smallest\npossible number of people in the room?\n(A) 10 (B) 13 (C) 14 (D) 16 (E) 19",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-03-page-3.jpg"
+    "image": "problem-pages/mock-amc10-03-page-3.jpg",
+    "latex_question": "A group of people are in a room. It is given that $5$ people have a pet dog, $6$ people have a pet cat, $8$ people have a pet fish, and $3$ people have no pets. If no one has more than two pets, and no one has more than one of the same type of pet, what is the smallest possible number of people in the room?",
+    "latex_choices": [
+      "10",
+      "13",
+      "14",
+      "16",
+      "19"
+    ]
   },
   {
     "id": "mock-amc10-03-13",
@@ -1313,7 +1609,15 @@
     "question": "13. A function f is defined by a real-valued expression\nf(x) = 2020x + 1\nx + 2020 +\n4\nq\n|x| − 2021 − 8\nq\n2021 − |x|\n|x − 2021| .\nFor x in the domain of f, f(x) can be simplified to a value N. What is the remainder\nwhen N is divided by 100?\n(A) 19 (B) 21 (C) 41 (D) 59 (E) N is not an integer.",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-03-page-3.jpg"
+    "image": "problem-pages/mock-amc10-03-page-3.jpg",
+    "latex_question": "A function $f$ is defined by a real-valued expression$$f(x)=\\frac{2020x+1}{x+2020} + \\frac{\\sqrt[4]{|x|-2021}-\\sqrt[8]{2021-|x|}}{|x-2021|}.$$For $x$ in the domain of $f$, $f(x)$ can be simplified to a value $N$. What is the remainder when $N$ is divided by $100$?",
+    "latex_choices": [
+      "19",
+      "21",
+      "41",
+      "59",
+      "$N$ is not an integer. "
+    ]
   },
   {
     "id": "mock-amc10-03-14",
@@ -1325,7 +1629,15 @@
     "question": "14. For a positive integer n, define a function f(n) to be equal to the largest integer k\nsuch that n is divisible by 2 k. For example, f(8) = 3 and f(12) = 2. Now, let p, q, and r\nbe distinct primes less than 100, so that M is the largest value that\nf((p + 1)(q + 1)(r + 1))\ncan take, and m is the smallest value. What is M + m?\n(A) 11 (B) 13 (C) 14 (D) 15 (E) 16",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-03-page-3.jpg"
+    "image": "problem-pages/mock-amc10-03-page-3.jpg",
+    "latex_question": "For a positive integer $n$, define a function $f(n)$ to be equal to the largest integer $k$ such that $n$ is divisible by $2^k$. For example, $f(8)=3$ and $f(12)=2$. Now, let $p$, $q$, and $r$ be distinct primes less than $100$, so that $M$ is the largest value that$$f((p+1)(q+1)(r+1))$$can take, and $m$ is the smallest value. What is $M+m$?",
+    "latex_choices": [
+      "11",
+      "13",
+      "14",
+      "15",
+      "16"
+    ]
   },
   {
     "id": "mock-amc10-03-15",
@@ -1337,7 +1649,15 @@
     "question": "15. A right circular cone has base radius 3 and height 4. Let s be the side length of the\nlargest possible cube that can be inscribed inside the cone such that two of its faces are\nparallel to the base of the cone. Then s = a − b√c, where a, b, and c are positive integers,\nand c is not divisible by the square of any prime. What is a + b + c?\n(A) 62 (B) 64 (C) 66 (D) 68 (E) 70",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-03-page-4.jpg"
+    "image": "problem-pages/mock-amc10-03-page-4.jpg",
+    "latex_question": "A right circular cone has base radius $3$ and height $4$. Let $s$ be the side length of the largest possible cube that can be inscribed inside the cone such that two of its faces are parallel to the base of the cone. Then $s=a-b\\sqrt{c}$, where $a$, $b$, and $c$ are positive integers, and $c$ is not divisible by the square of any prime. What is $a+b+c$?",
+    "latex_choices": [
+      "62",
+      "64",
+      "66",
+      "68",
+      "70"
+    ]
   },
   {
     "id": "mock-amc10-03-16",
@@ -1349,7 +1669,15 @@
     "question": "16. Bob and Bill are playing with 7 red cards and 3 blue cards. The cards are numbered\nfrom 1 to 10, inclusive, and are flipped over so that neither person can see the numbers.\nBill knows that the blue cards are numbered 1, 8, and 9, in some order, but Bob does\nnot know this, nor does he know that Bill knows. Bill chooses a card first, and then\nBob chooses a different card. A player wins the game if they choose a card with a larger\nnumber. If both players play optimally, what is the probability that Bill wins?\n(A) 1\n2 (B) 5\n9 (C) 2\n3 (D) 7\n10 (E) 25\n27",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-03-page-4.jpg"
+    "image": "problem-pages/mock-amc10-03-page-4.jpg",
+    "latex_question": "Bob and Bill are playing with $7$ red cards and $3$ blue cards. The cards are numbered from $1$ to $10$, inclusive, and are flipped over so that neither person can see the numbers. Bill knows that the blue cards are numbered $1$, $8$, and $9$, in some order, but Bob does not know this, nor does he know that Bill knows. Bill chooses a card first, and then Bob chooses a different card. A player wins the game if they choose a card with a larger number. If both players play optimally, what is the probability that Bill wins?",
+    "latex_choices": [
+      "$\\frac{1}{2}$",
+      "$\\frac{5}{9}$",
+      "$\\frac{2}{3}$",
+      "$\\frac{7}{10}$",
+      "$\\frac{25}{27}$"
+    ]
   },
   {
     "id": "mock-amc10-03-17",
@@ -1361,7 +1689,15 @@
     "question": "17. Farmers A and B are mowing a rectangular grid of 21 rows and 23 columns of cells\nof grass. A starts from the top-left cell of the grid and mows right until he has mowed\nall the grass in the row. Then, B starts from where A stopped and mows down the same\ncolumn until he has mowed all the grass in the column. They keep taking turns mowing,\neach time turning 90 ◦ clockwise, switching the farmer, and mowing only unmowed grass\nin the same direction until not possible. If A and B mow at rates of 7 and 3 cells per\nminute, respectively, and it takes no time to turn 90 ◦ clockwise and switch farmers, how\nlong, in minutes, will it take them to finish mowing all the grass?\n(A) 108 (B) 109 (C) 110 (D) 111 (E) 112",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-03-page-4.jpg"
+    "image": "problem-pages/mock-amc10-03-page-4.jpg",
+    "latex_question": "Farmers $A$ and $B$ are mowing a rectangular grid of $21$ rows and $23$ columns of cells of grass. $A$ starts from the top-left cell of the grid and mows right until he has mowed all the grass in the row. Then, $B$ starts from where $A$ stopped and mows down the same column until he has mowed all the grass in the column. They keep taking turns mowing, each time turning $90^\\circ$ clockwise, switching the farmer, and mowing only unmowed grass in the same direction until not possible. If $A$ and $B$ mow at rates of $7$ and $3$ cells per minute, respectively, and it takes no time to turn $90^{\\circ}$ clockwise and switch farmers, how long, in minutes, will it take them to finish mowing all the grass?",
+    "latex_choices": [
+      "108",
+      "109",
+      "110",
+      "111",
+      "112"
+    ]
   },
   {
     "id": "mock-amc10-03-18",
@@ -1373,7 +1709,15 @@
     "question": "18. A sequence is defined recursively by F0 = 0, F1 = 1, and Fn = Fn−1 + Fn−2 for all\nintegers n ≥ 2. Let S be the sum of all positive integers n such that |Fn − n2| ≤ 3n. What\nis the sum of the digits of S?\n(A) 6 (B) 7 (C) 10 (D) 11 (E) 14",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-03-page-4.jpg"
+    "image": "problem-pages/mock-amc10-03-page-4.jpg",
+    "latex_question": "A sequence is defined recursively by $F_0=0$, $F_1=1$, and $F_n=F_{n-1}+F_{n-2}$ for all integers $n\\geq2$. Let $S$ be the sum of all positive integers $n$ such that $|F_n-n^2|\\leq 3n$. What is the sum of the digits of $S$?",
+    "latex_choices": [
+      "6",
+      "7",
+      "10",
+      "11",
+      "14"
+    ]
   },
   {
     "id": "mock-amc10-03-19",
@@ -1385,7 +1729,15 @@
     "question": "19. In triangle ABC, AB = 15 and BC = 20, with a right angle at B. Point D is chosen\non side AC and is reflected over sides AB and BC (not consecutively) to create points\nM and N, respectively. What is the smallest possible value of the length M N?\n(A) 18 (B) 21 (C) 24 (D) 27 (E) 30",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-03-page-4.jpg"
+    "image": "problem-pages/mock-amc10-03-page-4.jpg",
+    "latex_question": "In triangle $ABC$, $AB=15$ and $BC=20$, with a right angle at $B$. Point $D$ is chosen on side $\\overline{AC}$ and is reflected over sides $\\overline{AB}$ and $\\overline{BC}$ (not consecutively) to create points $M$ and $N$, respectively. What is the smallest possible value of the length $MN$?",
+    "latex_choices": [
+      "18",
+      "21",
+      "24",
+      "27",
+      "30"
+    ]
   },
   {
     "id": "mock-amc10-03-20",
@@ -1397,7 +1749,15 @@
     "question": "20. A fair coin is painted such that one side is red and the other side is blue. A fair die is\npainted such that all 6 faces are blue. Each move, Daniel flips the coin and rolls the die.\nHe then paints the face facing up on the die the color of the side facing up on the coin.\nThe probability that the die is completely red after 7 moves is p12q, where p and q are\npositive integers such that p is not divisible by 12. What is p + q?\n(A) 35 (B) 75 (C) 110 (D) 180 (E) 215",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 5,
-    "image": "problem-pages/mock-amc10-03-page-5.jpg"
+    "image": "problem-pages/mock-amc10-03-page-5.jpg",
+    "latex_question": "A fair coin is painted such that one side is red and the other side is blue. A fair die is painted such that all $6$ faces are blue. Each move, Daniel flips the coin and rolls the die. He then paints the face facing up on the die the color of the side facing up on the coin. The probability that the die is completely red after $7$ moves is $\\tfrac{p}{12^q}$, where $p$ and $q$ are positive integers such that $p$ is not divisible by $12$. What is $p+q$?",
+    "latex_choices": [
+      "35",
+      "75",
+      "110",
+      "180",
+      "215"
+    ]
   },
   {
     "id": "mock-amc10-03-21",
@@ -1409,7 +1769,15 @@
     "question": "21. What is the sum of the digits of the remainder when\n(42 − 9)(52 − 9)(62 − 9) · · ·(932 − 9)\nis divided by 97?\n(A) 10 (B) 11 (C) 12 (D) 13 (E) 14",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 5,
-    "image": "problem-pages/mock-amc10-03-page-5.jpg"
+    "image": "problem-pages/mock-amc10-03-page-5.jpg",
+    "latex_question": "What is the sum of the digits of the remainder when$$(4^2-9)(5^2-9)(6^2-9)\\cdots(93^2-9)$$is divided by $97$?",
+    "latex_choices": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ]
   },
   {
     "id": "mock-amc10-03-22",
@@ -1421,7 +1789,15 @@
     "question": "22. A positive integer with 2 n digits is twisted if the last n digits is some permutation of\nthe first n digits, and the leading digit is nonzero. Let N be the number of twisted 6-digit\nintegers. What is the sum of the digits of N?\n(A) 18 (B) 21 (C) 24 (D) 27 (E) 30",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 5,
-    "image": "problem-pages/mock-amc10-03-page-5.jpg"
+    "image": "problem-pages/mock-amc10-03-page-5.jpg",
+    "latex_question": "A positive integer with $2n$ digits is $\\textit{twisted}$ if the last $n$ digits is some permutation of the first $n$ digits, and the leading digit is nonzero. Let $N$ be the number of twisted $6$-digit integers. What is the sum of the digits of $N$?",
+    "latex_choices": [
+      "18",
+      "21",
+      "24",
+      "27",
+      "30"
+    ]
   },
   {
     "id": "mock-amc10-03-23",
@@ -1433,7 +1809,15 @@
     "question": "23. Andy and Aidan want to meet up at school to exchange phone numbers. Before\nmeeting, they each choose a random time between 12 : 00 P M and 1 : 30 P M to arrive.\nAfter arriving, Andy will wait 40 minutes before leaving, while Aidan will wait 10 minutes\nbefore leaving. Later, Andy learns that he has an unexpected recital he has to attend at\n1 : 10P M, so if Andy is waiting for Aidan to arrive and the time passes 1 : 10 P M, Andy\nwill leave, and if Andy chose a time after 1 : 10 P M, Andy will not come to the meeting\nat all. What is the probability that Andy and Aidan meet?\n(A) 2\n9 (B) 37\n162 (C) 53\n162 (D) 29\n81 (E) 7\n18",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 5,
-    "image": "problem-pages/mock-amc10-03-page-5.jpg"
+    "image": "problem-pages/mock-amc10-03-page-5.jpg",
+    "latex_question": "Andy and Aidan want to meet up at school to exchange phone numbers. Before meeting, they each choose a random time between $\\text{12:00 PM}$ and $\\text{1:30 PM}$ to arrive. After arriving, Andy will wait $40$ minutes before leaving, while Aidan will wait $10$ minutes before leaving. Later, Andy learns that he has an unexpected recital he has to attend at $\\text{1:10 PM}$, so if Andy is waiting for Aidan to arrive and the time passes $\\text{1:10 PM}$, Andy will leave, and if Andy chose a time after $\\text{1:10 PM}$, Andy will not come to the meeting at all. What is the probability that Andy and Aidan meet?",
+    "latex_choices": [
+      "$\\frac{2}{9}$",
+      "$\\frac{37}{162}$",
+      "$\\frac{53}{162}$",
+      "$\\frac{29}{81}$",
+      "$\\frac{7}{18}$"
+    ]
   },
   {
     "id": "mock-amc10-03-24",
@@ -1445,7 +1829,15 @@
     "question": "24. In acute △ABC with circumcircle Γ, the lines tangent to Γ at pointsB and C intersect\nat point D. Line segment AD intersects Γ at another point E, distinct from A, and BC\nat a point F . If BF = 8, CF = 6, and EF = 4, then the area of △BCD can be expressed\nas m√n, where m and n are positive integers, and n is not divisible by the square of any\nprime. What is m + n?\n(A) 146 (B) 147 (C) 148 (D) 149 (E) 150",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 5,
-    "image": "problem-pages/mock-amc10-03-page-5.jpg"
+    "image": "problem-pages/mock-amc10-03-page-5.jpg",
+    "latex_question": "In acute $\\triangle ABC$ with circumcircle $\\Gamma$, the lines tangent to $\\Gamma$ at points $B$ and $C$ intersect at point $D$. Line segment $\\overline{AD}$ intersects $\\Gamma$ at another point $E$, distinct from $A$, and $\\overline{BC}$ at a point $F$. If $BF=8$, $CF=6$, and $EF=4$, then the area of $\\triangle BCD$ can be expressed as $m\\sqrt{n}$, where $m$ and $n$ are positive integers, and $n$ is not divisible by the square of any prime. What is $m+n$?",
+    "latex_choices": [
+      "146",
+      "147",
+      "148",
+      "149",
+      "150"
+    ]
   },
   {
     "id": "mock-amc10-03-25",
@@ -1457,7 +1849,15 @@
     "question": "25. Consider the quadratic equation P (x) = ax2 + bx + 144, where a and b are real\nnumbers. It is known that P (x) has two distinct positive integer roots, and its graph is\ntangent to the graph of y = −x2. The sum of all possible values of 1 a can be written as\nmn, where m and n are relatively prime positive integers. What is m + n?\n(A) 61 (B) 62 (C) 63 (D) 64 (E) 65",
     "source": "mock-tests/mock-amc10-03.pdf",
     "page": 6,
-    "image": "problem-pages/mock-amc10-03-page-6.jpg"
+    "image": "problem-pages/mock-amc10-03-page-6.jpg",
+    "latex_question": "Consider the quadratic equation $P(x) = ax^2+bx+144$, where $a$ and $b$ are real numbers. It is known that $P(x)$ has two distinct positive integer roots, and its graph is tangent to the graph of $y=-x^2$. The sum of all possible values of $\\tfrac{1}{a}$ can be written as $\\tfrac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. What is $m+n$?",
+    "latex_choices": [
+      "61",
+      "62",
+      "63",
+      "64",
+      "65"
+    ]
   },
   {
     "id": "mock-amc10-04-01",
@@ -1469,7 +1869,15 @@
     "question": "1. What is the value of\n(2 + 0 + 2 + 1)2 − (2 − 0 + 2 − 1)(2 + 0 − 2 + 1)?\n(A) 0 (B) 13 (C) 22 (D) 23 (E) 25",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-04-page-1.jpg"
+    "image": "problem-pages/mock-amc10-04-page-1.jpg",
+    "latex_question": "What is the value of\n\\[(2+0+2+1)^2-(2-0+2-1)(2+0-2+1)?\\]",
+    "latex_choices": [
+      "0",
+      "13",
+      "22",
+      "23",
+      "25"
+    ]
   },
   {
     "id": "mock-amc10-04-02",
@@ -1481,7 +1889,15 @@
     "question": "2. What is gcd(2020 · 2021, 2019 · 2022)?\n(A) 1 (B) 2 (C) 3 (D) 6 (E) 8",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-04-page-1.jpg"
+    "image": "problem-pages/mock-amc10-04-page-1.jpg",
+    "latex_question": "What is $\\gcd(2020\\cdot 2021, 2019\\cdot 2022)?$",
+    "latex_choices": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "8"
+    ]
   },
   {
     "id": "mock-amc10-04-03",
@@ -1493,7 +1909,15 @@
     "question": "3. Suppose m, n are positive integers such that m+1, m+2, . . ., m+ n are all semiprimes\n(product of 2 distinct primes). What is the largest possible value of n?\n(A) 2 (B) 3 (C) 4 (D) 5 (E) 6",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-04-page-1.jpg"
+    "image": "problem-pages/mock-amc10-04-page-1.jpg",
+    "latex_question": "Suppose $m$, $n$ are positive integers such that $m+1$, $m+2$, $\\ldots$, $m+n$ are all semiprimes (product of 2 distinct primes). What is the largest possible value of $n?$",
+    "latex_choices": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
   },
   {
     "id": "mock-amc10-04-04",
@@ -1505,7 +1929,15 @@
     "question": "4. What is the units digit of 2021 2 − 22021?\n(A) 1 (B) 3 (C) 5 (D) 7 (E) 9",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-04-page-1.jpg"
+    "image": "problem-pages/mock-amc10-04-page-1.jpg",
+    "latex_question": "What is the units digit of $\\lvert2021^2-2^{2021}\\rvert?$",
+    "latex_choices": [
+      "1",
+      "3",
+      "5",
+      "7",
+      "9"
+    ]
   },
   {
     "id": "mock-amc10-04-05",
@@ -1517,7 +1949,15 @@
     "question": "5. How many nonsimilar triangles exist which have at least two lines of symmetry?\n(A) 0 (B) 1 (C) 2 (D) 3 (E) 4",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-04-page-1.jpg"
+    "image": "problem-pages/mock-amc10-04-page-1.jpg",
+    "latex_question": "How many nonsimilar triangles exist which have at least two lines of symmetry?",
+    "latex_choices": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
   },
   {
     "id": "mock-amc10-04-06",
@@ -1529,7 +1969,15 @@
     "question": "6. The difference between the maximum and the minimum 4-digit positive integer written\nusing each of the digits 1, 2, 3, n exactly once is 2088. What is the sum of all the possible\nvalues of n?\n(A) 1 (B) 3 (C) 4 (D) 9 (E) 10",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-04-page-1.jpg"
+    "image": "problem-pages/mock-amc10-04-page-1.jpg",
+    "latex_question": "The difference between the maximum and the minimum $4$-digit positive integer written using each of the digits 1, 2, 3, $n$ exactly once is $2088$. What is the sum of all the possible values of $n$?",
+    "latex_choices": [
+      "1",
+      "3",
+      "4",
+      "9",
+      "10"
+    ]
   },
   {
     "id": "mock-amc10-04-07",
@@ -1541,7 +1989,15 @@
     "question": "7. How many positive integers n < 109 written using only the digits 0 and 1 are divisible\nby 12?\n(A) 40 (B) 42 (C) 47 (D) 53 (E) 56",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-04-page-2.jpg"
+    "image": "problem-pages/mock-amc10-04-page-2.jpg",
+    "latex_question": "How many positive integers $n<10^9$ written using only the digits $0$ and $1$ are divisible by $12$?",
+    "latex_choices": [
+      "40",
+      "42",
+      "47",
+      "53",
+      "56"
+    ]
   },
   {
     "id": "mock-amc10-04-08",
@@ -1553,7 +2009,15 @@
     "question": "8. If x, y, z are positive integers such that\nx · y · z = 7!,\nwhat is the smallest possible value of max( x, y, z)?\n(A) 14 (B) 16 (C) 18 (D) 20 (E) 21",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-04-page-2.jpg"
+    "image": "problem-pages/mock-amc10-04-page-2.jpg",
+    "latex_question": "If $x$, $y$, $z$ are positive integers such that\n\\[ x \\cdot y \\cdot z = 7!,\\]what is the smallest possible value of $\\max(x,y,z)$?",
+    "latex_choices": [
+      "14",
+      "16",
+      "18",
+      "20",
+      "21"
+    ]
   },
   {
     "id": "mock-amc10-04-09",
@@ -1565,7 +2029,15 @@
     "question": "9. How many ways can the letters of the word COM BO be arranged such that the M is\nadjacent to both a vowel and a consonant?\n(A) 6 (B) 12 (C) 18 (D) 24 (E) 32",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-04-page-2.jpg"
+    "image": "problem-pages/mock-amc10-04-page-2.jpg",
+    "latex_question": "How many ways can the letters of the word $COMBO$ be arranged such that the $M$ is adjacent to both a vowel and a consonant?",
+    "latex_choices": [
+      "6",
+      "12",
+      "18",
+      "24",
+      "32"
+    ]
   },
   {
     "id": "mock-amc10-04-10",
@@ -1577,7 +2049,15 @@
     "question": "10. An equilateral triangle is inscribed in another equilateral triangle as in the diagram\nbelow. If the side length of the outer equilateral triangle is 1, the side length of the inner\ntriangle can be represented as\n√a−\n√\nb\nc for positive integers a, b, and c such that a and b\nare square free. What is a + b + c?\n(A) 10 (B) 12 (C) 13 (D) 15 (E) 16",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-04-page-2.jpg"
+    "image": "problem-pages/mock-amc10-04-page-2.jpg",
+    "latex_question": "An equilateral triangle is inscribed in another equilateral triangle as in the diagram below. If the side length of the outer equilateral triangle is 1, the side length of the inner triangle can be represented as $\\frac{\\sqrt{a} - \\sqrt{b}}{c}$ for positive integers $a$, $b$, and $c$ such that $a$ and $b$ are square free. What is $a + b + c$?\n\\begin{asy}\nimport markers;\nimport olympiad;\nunitsize(3cm);\n\nreal r = 0.5*(sqrt(6)-sqrt(2));\n\n// 큰 정삼각형\npair A = dir(90);\npair B = dir(210);\npair C = dir(330);\ndraw(A--B--C--cycle);\n\n// 내부 작은 정삼각형\npair D = r*dir(15);\npair E = r*dir(135);\npair F = r*dir(255);\ndraw(D--E--F--cycle);\n\n// 각도 표시 (점 D에서 ∠ADE)\nmarkangle(Label(\"$45^{\\circ}$\"), A, D, E);\n\\end{asy}",
+    "latex_choices": [
+      "10",
+      "12",
+      "13",
+      "15",
+      "16"
+    ]
   },
   {
     "id": "mock-amc10-04-11",
@@ -1589,7 +2069,15 @@
     "question": "11. Nine friends play a game. The first person says 1. For 1 ≤ n ≤ 8, if the nth person\nsays k then the ( n + 1)th person will say either k − 1 or k + 1 with equal probability.\nWhat is the probability that the number the 9th person says is positive?\n(A) 163\n256 (B) 41\n64 (C) 165\n256 (D) 83\n128 (E) 167\n256",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-04-page-2.jpg"
+    "image": "problem-pages/mock-amc10-04-page-2.jpg",
+    "latex_question": "Nine friends play a game. The first person says 1. For $1\\leq n\\leq 8$, if the $n$th person says $k$ then the $(n+1)$th person will say either $k-1$ or $k+1$ with equal probability. What is the probability that the number the 9th person says is positive?",
+    "latex_choices": [
+      "$\\frac{163}{256}$",
+      "$\\frac{41}{64}$",
+      "$\\frac{165}{256}$",
+      "$\\frac{83}{128}$",
+      "$\\frac{167}{256}$"
+    ]
   },
   {
     "id": "mock-amc10-04-12",
@@ -1601,7 +2089,15 @@
     "question": "12. On the 31 st December 2020, Andre realizes that the number of days until his 21 st\nbirthday is the square of the number of entire months leading to it. When does his\nbirthday fall?\n(A) May 16th (B) Jun 17th (C) Jul 18th (D) Aug 19th (E) Sep 20th",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-04-page-2.jpg"
+    "image": "problem-pages/mock-amc10-04-page-2.jpg",
+    "latex_question": "On the $31^{\\text{st}}$ December $2020$, Andre realizes that the number of days until his $21^{\\text{st}}$ birthday is the square of the number of entire months leading to it. When does his birthday fall?",
+    "latex_choices": [
+      "May 16th",
+      "Jun 17th",
+      "Jul 18th",
+      "Aug 19th",
+      "Sep 20th"
+    ]
   },
   {
     "id": "mock-amc10-04-13",
@@ -1613,7 +2109,15 @@
     "question": "13. Rectangle ABCD has AB = 2, BC = 1. Point P is selected uniformly at random\ninside ABCD . Through P are lines ℓ and m perpendicular to AC and BD respectively.\nWhat is the probability that both ℓ and m intersect segments AB and CD?\n(A) 3\n16 (B) 5\n16 (C) 3\n8 (D) 1\n2 (E) 5\n8",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-04-page-3.jpg"
+    "image": "problem-pages/mock-amc10-04-page-3.jpg",
+    "latex_question": "Rectangle $ABCD$ has $AB = 2$, $BC = 1$. Point $P$ is selected uniformly at random inside $ABCD$. Through $P$ are lines $\\ell$ and $m$ perpendicular to $\\overline{AC}$ and $\\overline{BD}$ respectively. What is the probability that both $\\ell$ and $m$ intersect segments $AB$ and $CD$?",
+    "latex_choices": [
+      "$\\frac{3}{16}$",
+      "$\\frac{5}{16}$",
+      "$\\frac{3}{8}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{5}{8}$"
+    ]
   },
   {
     "id": "mock-amc10-04-14",
@@ -1625,7 +2129,15 @@
     "question": "14. Angela is calculating her grades in her Calculus class by computing the total number\nof points she scored divided by the total number of possible points. On her last four tests,\nshe scored 20 out of 30 points, 35 out of 45 points, 50 out of 60 points, and 65 out of 75\npoints. Suppose she scores exactly 98% of the possible m points and exactly 96% of the\npossible n points on her final two lengthy exams such that her final grade in the class is\nprecisely 90%. Given that m, n, and the number of points she scored per test are positive\nintegers, what is the smallest possible value of m + n?\n(A) 175 (B) 200 (C) 225 (D) 250 (E) 275",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-04-page-3.jpg"
+    "image": "problem-pages/mock-amc10-04-page-3.jpg",
+    "latex_question": "Angela is calculating her grades in her Calculus class by computing the total number of points she scored divided by the total number of possible points. On her last four tests, she scored $20$ out of $30$ points, $35$ out of $45$ points, $50$ out of $60$ points, and $65$ out of $75$ points. Suppose she scores exactly $98\\%$ of the possible $m$ points and exactly $96\\%$ of the possible $n$ points on her final two lengthy exams such that her final grade in the class is precisely $90\\%.$ Given that $m$, $n$, and the number of points she scored per test are positive integers, what is the smallest possible value of $m+n$?",
+    "latex_choices": [
+      "175",
+      "200",
+      "225",
+      "250",
+      "275"
+    ]
   },
   {
     "id": "mock-amc10-04-15",
@@ -1637,7 +2149,15 @@
     "question": "15. Suppose n is a composite positive integer, and let f(n) be the third-largest divisor of\nn. For how many positive integers n ≤ 720 is f(n) divisible by 4?\n(A) 45 (B) 60 (C) 72 (D) 90 (E) 120",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-04-page-3.jpg"
+    "image": "problem-pages/mock-amc10-04-page-3.jpg",
+    "latex_question": "Suppose $n$ is a composite positive integer, and let $f(n)$ be the third-largest divisor of $n$. For how many positive integers $n \\leq 720$ is $f(n)$ divisible by $4$?",
+    "latex_choices": [
+      "45",
+      "60",
+      "72",
+      "90",
+      "120"
+    ]
   },
   {
     "id": "mock-amc10-04-16",
@@ -1649,7 +2169,15 @@
     "question": "16. Let ABCD be a parallelogram such that AB = CD = 1, BC = DA =\n√\n3, and\n̸ BAD = ̸ DCB = 30◦. Let E, F , G, and H be the points such that △ABE, △BCF ,\n△CDG, and △DAH are equilateral triangles lying completely outside of ABCD . Com-\npute the area of quadrilateral EF GH.\n(A) 2\n√\n6 (B) 5 (C) 3\n√\n3 (D) 2\n√\n7 (E) 6",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-04-page-3.jpg"
+    "image": "problem-pages/mock-amc10-04-page-3.jpg",
+    "latex_question": "Let $ABCD$ be a parallelogram such that $AB=CD=1$, $BC=DA=\\sqrt3$, and $\\angle BAD=\\angle DCB=30^\\circ$. Let $E$, $F$, $G$, and $H$ be the points such that $\\triangle ABE$, $\\triangle BCF$, $\\triangle CDG$, and $\\triangle DAH$ are equilateral triangles lying completely outside of $ABCD$. Compute the area of quadrilateral $EFGH$.",
+    "latex_choices": [
+      "$2\\sqrt{6}$",
+      "5",
+      "$3\\sqrt{3}$",
+      "$2\\sqrt{7}$",
+      "6"
+    ]
   },
   {
     "id": "mock-amc10-04-17",
@@ -1661,7 +2189,15 @@
     "question": "17. Jensen has polynomials (x−1), (x−1)(x−2), . . ., (x−1)(x−2) · · ·(x−2020)(x−2021)\nand he decides to split them in two groups. Let P (x) and Q(x) denote the product of\nall the polynomials in the first and in the second group, respectively. Given that Q(x) is\ndivisible by P (x), what is the smallest possible degree of Q(x)\nP (x)?\n(A) 1 (B) 3 (C) 1009 (D) 1011 (E) 2021",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-04-page-3.jpg"
+    "image": "problem-pages/mock-amc10-04-page-3.jpg",
+    "latex_question": "Jensen has polynomials $(x-1)$, $(x-1)(x-2)$, $\\ldots$, $(x-1)(x-2)\\cdots(x-2020)(x-2021)$ and he decides to split them in two groups. Let $P(x)$ and $Q(x)$ denote the product of all the polynomials in the first and in the second group, respectively. Given that $Q(x)$ is divisible by $P(x)$, what is the smallest possible degree of $\\frac{Q(x)}{P(x)}$?",
+    "latex_choices": [
+      "1",
+      "3",
+      "1009",
+      "1011",
+      "2021"
+    ]
   },
   {
     "id": "mock-amc10-04-18",
@@ -1673,7 +2209,15 @@
     "question": "18. For a positive integer n, let f(n) be the product of the nonzero digits of n. Find the\nleast n so that f(1) + f(2) + f(3) + . . . + f(n) ≥ 2021.\n(A) 89 (B) 96 (C) 97 (D) 98 (E) 99",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-04-page-4.jpg"
+    "image": "problem-pages/mock-amc10-04-page-4.jpg",
+    "latex_question": "For a positive integer $n$, let $f(n)$ be the product of the nonzero digits of $n$. Find the least $n$ so that $f(1)+f(2)+f(3)+\\dots+f(n) \\geq 2021$.",
+    "latex_choices": [
+      "89",
+      "96",
+      "97",
+      "98",
+      "99"
+    ]
   },
   {
     "id": "mock-amc10-04-19",
@@ -1685,7 +2229,15 @@
     "question": "19. Let ABCD be an isosceles trapezoid with bases AB and CD, such that AB < CD .\nLet ℓ be the altitude from B to AC. Suppose that AD = BC = 5, AB = 4, and ℓ bisects\nthe area of ABCD . Compute CD.\n(A) 3\n√\n5 (B) 4\n√\n3 (C) 7 (D) 5\n√\n2 (E) 2\n√\n13",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-04-page-4.jpg"
+    "image": "problem-pages/mock-amc10-04-page-4.jpg",
+    "latex_question": "Let $ABCD$ be an isosceles trapezoid with bases $AB$ and $CD$, such that $AB<CD$. Let $\\ell$ be the altitude from $B$ to $AC$. Suppose that $AD=BC=5$, $AB=4$, and $\\ell$ bisects the area of $ABCD$. Compute $CD$.",
+    "latex_choices": [
+      "$3\\sqrt{5}$",
+      "$4\\sqrt{3}$",
+      "7",
+      "$5\\sqrt{2}$",
+      "$2\\sqrt{13}$"
+    ]
   },
   {
     "id": "mock-amc10-04-20",
@@ -1697,7 +2249,15 @@
     "question": "20. Four kids—Hyde, Heli, Lithe, and Beryl—request at least one, two, three, and four\npieces of candy, respectively. However, they only have five (indistinguishable) pieces of\ncandy to share. How many ways can the kids split up the candy such that at least one\nrequest is fulfilled?\n(A) 47 (B) 48 (C) 50 (D) 53 (E) 54",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-04-page-4.jpg"
+    "image": "problem-pages/mock-amc10-04-page-4.jpg",
+    "latex_question": "Four kids---Hyde, Heli, Lithe, and Beryl---request at least one, two, three, and four pieces of candy, respectively. However, they only have five (indistinguishable) pieces of candy to share. How many ways can the kids split up the candy such that at least one request is fulfilled?",
+    "latex_choices": [
+      "47",
+      "48",
+      "50",
+      "53",
+      "54"
+    ]
   },
   {
     "id": "mock-amc10-04-21",
@@ -1709,7 +2269,15 @@
     "question": "21. In the figure below, ABCDEF GH is a cube with side length 10. If I is the center of\nADHE , J is the center of ABCD , K is the center of CDHG , and L is the midpoint of\nCG, then the distance between L and the plane formed by △IJK can be written as m√n\nfor positive integers m, n such that n is square-free. Find m + n.\nA B\nCD\nE F\nGH\nI\nJ\nK L\n(A) 7 (B) 8 (C) 11 (D) 12 (E) 13",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-04-page-4.jpg"
+    "image": "problem-pages/mock-amc10-04-page-4.jpg",
+    "latex_question": "In the figure below, $ABCDEFGH$ is a cube with side length $10$. If $I$ is the center of $ADHE$, $J$ is the center of $ABCD$, $K$ is the center of $CDHG$, and $L$ is the midpoint of $\\overline{CG}$, then the distance between $L$ and the plane formed by $\\triangle IJK$ can be written as $\\frac m{\\sqrt n}$ for positive integers $m,n$ such that $n$ is square-free. Find $m+n$.\n\\begin{center}\n\\begin{asy}\nsize(4cm);\ndefaultpen(fontsize(9pt));\npair A=(0,0), B=(50,0), C=(70,10), D=(20,10), E=(0,50), F=(50,50), G=(70,60), H=(20,60), I=(10,30), J=(35,5), K=(45,35), L=(70,35);\nfill(I--J--K--cycle, grey+opacity(0.6));\ndraw(A--B--C--G--F--E--H--G--F, linewidth(0.5));\ndraw(A--E, linewidth(0.5));\ndraw(F--B, linewidth(0.5));\ndraw(A--D--C, linewidth(0.4)+dashed);\ndraw(D--H, linewidth(0.4)+dashed);\ndot(\"$A$\", A, (0,-1));\ndot(\"$B$\", B, (0,-1));\ndot(\"$C$\", C, (0,-1));\ndot(\"$D$\", D, (0,-1));\ndot(\"$E$\", E, (0,1));\ndot(\"$F$\", F, (0,1));\ndot(\"$G$\", G, (0,1));\ndot(\"$H$\", H, (0,1));\ndot(\"$I$\", I, (-1,0.5));\ndot(\"$J$\", J, (0.5,-0.25));\ndot(\"$K$\", K, (0.5,1));\ndot(\"$L$\", L, (0.5,0.5));\n\\end{asy}\n\\end{center}",
+    "latex_choices": [
+      "7",
+      "8",
+      "11",
+      "12",
+      "13"
+    ]
   },
   {
     "id": "mock-amc10-04-22",
@@ -1721,7 +2289,15 @@
     "question": "22. Define a positive integer k ≥ 2 to be artistic if there exists a natural number m such\nthat for any positive integer n that is relatively prime to k, we have\nmn + nm ≡ 0 (mod k).\nDetermine the sum of all artistic numbers.\n(A) 2 (B) 5 (C) 8 (D) 13 (E) 18",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-04-page-4.jpg"
+    "image": "problem-pages/mock-amc10-04-page-4.jpg",
+    "latex_question": "Define a positive integer $k\\ge2$ to be artistic if there exists a natural number $m$ such that for any positive integer $n$ that is relatively prime to $k$, we have\\[m^n + n^m \\equiv 0\\pmod k.\\]Determine the sum of all artistic numbers.",
+    "latex_choices": [
+      "2",
+      "5",
+      "8",
+      "13",
+      "18"
+    ]
   },
   {
     "id": "mock-amc10-04-23",
@@ -1733,7 +2309,15 @@
     "question": "23. An ant starts on point X in the following diagram. If the ant moves to an adjacent\nvertex every second, how many ways are there for the ant to return to point X after 6\nseconds?\nX\n(A) 124 (B) 288 (C) 456 (D) 648 (E) 744",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 5,
-    "image": "problem-pages/mock-amc10-04-page-5.jpg"
+    "image": "problem-pages/mock-amc10-04-page-5.jpg",
+    "latex_question": "An ant starts on point $X$ in the following diagram. If the ant moves to an adjacent vertex every second, how many ways are there for the ant to return to point $X$ after 6 seconds?\n\\begin{center}\n\\begin{asy}\nsize(4cm);\ndefaultpen(fontsize(9pt));\npair X=(0,0), A=(1,1.732), B=(2,0), C=(1,-1.732), D=(-1,-1.732), E=(-2,0), F=(-1,1.732);\ndraw(X--A--B--C--D--E--F--X);\ndraw(A--F);\ndraw(X--B);\ndraw(X--C);\ndraw(X--D);\ndraw(X--E);\ndot(A);\ndot(C);\ndot(B);\ndot(D);\ndot(E);\ndot(F);\ndot(\"$X$\", X, 3*N);\n\\end{asy}\n\\end{center}",
+    "latex_choices": [
+      "124",
+      "288",
+      "456",
+      "648",
+      "744"
+    ]
   },
   {
     "id": "mock-amc10-04-24",
@@ -1745,7 +2329,15 @@
     "question": "24. Triangle △P QR with P Q = 3, QR = 4, RP = 5 is drawn inside a regular hexagon\nABCDEF with P on segment F A, Q the midpoint of segment AB, and R on segment\nCD. Given that AB2 = m\nn for relatively prime positive integers m and n, find m + n.\n(A) 865 (B) 866 (C) 867 (D) 868 (E) 869",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 5,
-    "image": "problem-pages/mock-amc10-04-page-5.jpg"
+    "image": "problem-pages/mock-amc10-04-page-5.jpg",
+    "latex_question": "Triangle $\\triangle PQR$ with $PQ=3$, $QR=4$, $RP=5$ is drawn inside a regular hexagon $ABCDEF$ with $P$ on segment $FA$, $Q$ the midpoint of segment $AB$, and $R$ on segment $CD$. Given that $AB^2=\\frac mn$ for relatively prime positive integers $m$ and $n$, find $m+n$.",
+    "latex_choices": [
+      "865",
+      "866",
+      "867",
+      "868",
+      "869"
+    ]
   },
   {
     "id": "mock-amc10-04-25",
@@ -1757,7 +2349,15 @@
     "question": "25. Let p1 < p 2 < . . . < p 24 be the distinct permutations of 1234 in increasing order.\nFor positive integers 1 ≤ i < j ≤ 24, we define d(i,j) = pj − pi. For example, d(1,24) =\n4321 − 1234 = 3087. Over all possible choices of ( i, j), how many distinct values of d(i,j)\nare there?\n(A) 92 (B) 94 (C) 96 (D) 98 (E) 100",
     "source": "mock-tests/mock-amc10-04.pdf",
     "page": 5,
-    "image": "problem-pages/mock-amc10-04-page-5.jpg"
+    "image": "problem-pages/mock-amc10-04-page-5.jpg",
+    "latex_question": "Let $p_1 < p_2 < \\dots < p_{24}$ be the distinct permutations of $1234$ in increasing order. For positive integers $1 \\leq i < j \\leq 24$, we define $d_{(i,j)}=p_j-p_i$. For example, $d_{(1,24)}=4321-1234=3087$. Over all possible choices of $(i,j)$, how many distinct values of $d_{(i,j)}$ are there?",
+    "latex_choices": [
+      "92",
+      "94",
+      "96",
+      "98",
+      "100"
+    ]
   },
   {
     "id": "mock-amc10-06-01",
