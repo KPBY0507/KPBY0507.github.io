@@ -369,7 +369,15 @@
     "question": "1. In a bag of marbles, 3\n4 of the marbles are blue. If 1\n3 of the blue marbles are taken out\nof the bag, what fraction of the remaining marbles in the bag are blue?\n(A) 1\n4 (B) 1\n3 (C) 1\n2 (D) 2\n3 (E) 3\n4",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-01-page-1.jpg"
+    "image": "problem-pages/mock-amc10-01-page-1.jpg",
+    "latex_question": "In a bag of marbles, $\\frac{3}{4}$ of the marbles are blue. If $\\frac{1}{3}$ of the blue marbles are taken out of the bag, what fraction of the remaining marbles in the bag are blue?",
+    "latex_choices": [
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{2}{3}$",
+      "$\\frac{3}{4}$"
+    ]
   },
   {
     "id": "mock-amc10-01-02",
@@ -381,7 +389,15 @@
     "question": "2. Let a ⋆ b =\na2− b\n2\na+b . What is 20 ⋆ 20?\n(A) 39\n40 (B) 39\n20 (C) 39\n16 (D) 39\n8 (E) 39\n4",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-01-page-1.jpg"
+    "image": "problem-pages/mock-amc10-01-page-1.jpg",
+    "latex_question": "Let $a\\star b=\\frac{a^2-\\frac{b}{2}}{a+b}$. What is $20\\star 20$?",
+    "latex_choices": [
+      "$\\frac{39}{40}$",
+      "$\\frac{39}{20}$",
+      "$\\frac{39}{16}$",
+      "$\\frac{39}{8}$",
+      "$\\frac{39}{4}$"
+    ]
   },
   {
     "id": "mock-amc10-01-03",
@@ -393,7 +409,15 @@
     "question": "3. In equilateral triangle ABC with AB = 1, let M denote the midpoint of BC and N\ndenote the midpoint of AC. What is the area of AM N?\n(A)\n√\n3\n32 (B)\n√\n3\n16 (C) 3\n√\n3\n32 (D)\n√\n3\n9 (E)\n√\n3\n8",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-01-page-1.jpg"
+    "image": "problem-pages/mock-amc10-01-page-1.jpg",
+    "latex_question": "In equilateral triangle $ABC$ with $AB=1$, let $M$ denote the midpoint of $\\overline{BC}$ and $N$ denote the midpoint of $\\overline{AC}$. What is the area of $AMN$?",
+    "latex_choices": [
+      "$\\frac{\\sqrt{3}}{32}$",
+      "$\\frac{\\sqrt{3}}{16}$",
+      "$\\frac{3\\sqrt{3}}{32}$",
+      "$\\frac{\\sqrt{3}}{9}$",
+      "$\\frac{\\sqrt{3}}{8}$"
+    ]
   },
   {
     "id": "mock-amc10-01-04",
@@ -405,7 +429,15 @@
     "question": "4. In a battle royale game, Eddie has averaged 6 .7 strikes per match over 1000 matches.\nHow many strikes must Eddie average per match over the next 100 matches to bring his\noverall average up to 6 .8 strikes per match?\n(A) 0.1 (B) 6.8 (C) 7 (D) 7.8 (E) 8.4",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-01-page-1.jpg"
+    "image": "problem-pages/mock-amc10-01-page-1.jpg",
+    "latex_question": "In a battle royale game, Eddie has averaged $6.7$ strikes per match over $1000$ matches. How many strikes must Eddie average per match over the next $100$ matches to bring his overall average up to $6.8$ strikes per match?",
+    "latex_choices": [
+      "0.1",
+      "6.8",
+      "7",
+      "7.8",
+      "8.4"
+    ]
   },
   {
     "id": "mock-amc10-01-05",
@@ -417,7 +449,15 @@
     "question": "5. Let f be a function such that f(f(x)) = x\n2 −2 for all real numbers x. If f(f(f(f(y)))) =\n100 for some integer y, what is the sum of the digits of y?\n(A) 4 (B) 7 (C) 8 (D) 10 (E) 11",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-01-page-1.jpg"
+    "image": "problem-pages/mock-amc10-01-page-1.jpg",
+    "latex_question": "Let $f$ be a function such that $f(f(x))=\\frac{x}{2}-2$ for all real numbers $x$. If $f(f(f(f(y))))=100$ for some integer $y$, what is the sum of the digits of $y$?",
+    "latex_choices": [
+      "4",
+      "7",
+      "8",
+      "10",
+      "11"
+    ]
   },
   {
     "id": "mock-amc10-01-06",
@@ -429,7 +469,15 @@
     "question": "6. There exist ordered pairs of primes ( a, b), with a < b , such that a + b = 82. What is\nthe sum of all possible values of b − a?\n(A) 0 (B) 76 (C) 84 (D) 136 (E) 196",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 1,
-    "image": "problem-pages/mock-amc10-01-page-1.jpg"
+    "image": "problem-pages/mock-amc10-01-page-1.jpg",
+    "latex_question": "There exist ordered pairs of primes $(a,b)$, with $a<b$, such that $a+b=82$. What is the sum of all possible values of $b-a$?",
+    "latex_choices": [
+      "0",
+      "76",
+      "84",
+      "136",
+      "196"
+    ]
   },
   {
     "id": "mock-amc10-01-07",
@@ -441,7 +489,15 @@
     "question": "7. Calvin and Hobbes set out from Boston to Raleigh at midnight, both driving at constant\nspeeds. Hobbes drives 25% faster than Calvin, and Calvin drives at 60 miles per hour.\nAt 3 : 30 AM, Hobbes stops driving to take a break, and then he continues driving at\nthe same constant speed after a certain amount of time has elapsed. If both Calvin and\nHobbes arrive at Raleigh at noon, for how many minutes did Hobbes stop?\n(A) 24 (B) 60 (C) 72 (D) 108 (E) 144",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-01-page-2.jpg"
+    "image": "problem-pages/mock-amc10-01-page-2.jpg",
+    "latex_question": "Calvin and Hobbes set out from Boston to Raleigh at midnight, both driving at constant speeds. Hobbes drives $25\\%$ faster than Calvin, and Calvin drives at $60$ miles per hour. At $\\text{3:30 AM}$, Hobbes stops driving to take a break, and then he continues driving at the same constant speed after a certain amount of time has elapsed. If both Calvin and Hobbes arrive at Raleigh at noon, for how many minutes did Hobbes stop?",
+    "latex_choices": [
+      "24",
+      "60",
+      "72",
+      "108",
+      "144"
+    ]
   },
   {
     "id": "mock-amc10-01-08",
@@ -453,7 +509,15 @@
     "question": "8. Shenlar has a sum S that is initially set equal to 0. For each integer n from 1 to 100\ninclusive, Shenlar adds the value of n\n2n to S if and only if 2 n is divisible by n. When S\nis written in binary (base-two), what is the sum of the digits of S after the point? (For\nexample, if the number was 0 .011012, the sum would be 3.)\n(A) 5 (B) 6 (C) 7 (D) 8 (E) 9",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-01-page-2.jpg"
+    "image": "problem-pages/mock-amc10-01-page-2.jpg",
+    "latex_question": "Shenlar has a sum $S$ that is initially set equal to $0$. For each integer $n$ from $1$ to $100$ inclusive, Shenlar adds the value of $\\frac{n}{2^n}$ to $S$ if and only if $2^n$ is divisible by $n$. When $S$ is written in binary (base-two), what is the sum of the digits of $S$ after the point? (For example, if the number was $0.01101_{2}$, the sum would be $3$.)",
+    "latex_choices": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
   },
   {
     "id": "mock-amc10-01-09",
@@ -465,7 +529,15 @@
     "question": "9. Let rectangle ABCD be such that AB = CD = 8 and BC = AD = 5. Construct four\nsquares such that the sides of the rectangle are the diagonals of the squares. What is the\nsum of the areas of the regions that are in only one of the four squares?\n(A) 75.5 (B) 80 (C) 84.5 (D) 89 (E) 93.5",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-01-page-2.jpg"
+    "image": "problem-pages/mock-amc10-01-page-2.jpg",
+    "latex_question": "Let rectangle $ABCD$ be such that $AB=CD=8$ and $BC=AD=5.$ Construct four squares such that the sides of the rectangle are the diagonals of the squares. What is the sum of the areas of the regions that are in only one of the four squares?",
+    "latex_choices": [
+      "75.5",
+      "80",
+      "84.5",
+      "89",
+      "93.5"
+    ]
   },
   {
     "id": "mock-amc10-01-10",
@@ -477,7 +549,15 @@
     "question": "10. Let S be the set of all triplets of three consecutive positive integers all strictly less\nthan 100 that sum to a multiple of 9, multiply to a multiple of 9, or both. What is the\nnumber of triplets in S? (The ordering within the triplets does not matter.)\n(A) 12 (B) 27 (C) 52 (D) 53 (E) 63",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-01-page-2.jpg"
+    "image": "problem-pages/mock-amc10-01-page-2.jpg",
+    "latex_question": "Let $S$ be the set of all triplets of three consecutive positive integers all strictly less than $100$ that sum to a multiple of $9$, multiply to a multiple of $9$, or both. What is the number of triplets in $S$? (The ordering within the triplets does not matter.)",
+    "latex_choices": [
+      "12",
+      "27",
+      "52",
+      "53",
+      "63"
+    ]
   },
   {
     "id": "mock-amc10-01-11",
@@ -489,7 +569,15 @@
     "question": "11. What is the greatest number of points that can be placed in a circle with radius 2020\n(including its circumference) such that no two points lie strictly less than 2020 units of\neach other?\n(A) 5 (B) 6 (C) 7 (D) 8 (E) 9",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 2,
-    "image": "problem-pages/mock-amc10-01-page-2.jpg"
+    "image": "problem-pages/mock-amc10-01-page-2.jpg",
+    "latex_question": "What is the greatest number of points that can be placed in a circle with radius $2020$ (including its circumference) such that no two points lie strictly less than $2020$ units of each other?",
+    "latex_choices": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
   },
   {
     "id": "mock-amc10-01-12",
@@ -501,7 +589,15 @@
     "question": "12. Let O be the circumcenter of △ABC with circumradius 6. The internal angle bisectors\nof ̸ ABO and ̸ ACO meet AO at points D and E, respectively. If AB = 9 and AC = 10,\nthen DE = m\nn for relatively prime positive integers m and n. What is m + n?\n(A) 23 (B) 29 (C) 33 (D) 41 (E) 57",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-01-page-3.jpg"
+    "image": "problem-pages/mock-amc10-01-page-3.jpg",
+    "latex_question": "Let $O$ be the circumcenter of $\\triangle{ABC}$ with circumradius $6$. The internal angle bisectors of $\\angle{ABO}$ and $\\angle{ACO}$ meet $\\overline{AO}$ at points $D$ and $E,$ respectively. If $AB=9$ and $AC=10$, then $DE=\\frac{m}{n}$ for relatively prime positive integers $m$ and $n$. What is $m+n$?",
+    "latex_choices": [
+      "23",
+      "29",
+      "33",
+      "41",
+      "57"
+    ]
   },
   {
     "id": "mock-amc10-01-13",
@@ -513,7 +609,15 @@
     "question": "13. For Color Day, 12 students in a class are to be randomly assigned a T-shirt to wear\nwith one of three colors: red, blue, and yellow. A color may be worn by as few as 0\nstudents. However, since the teacher wants color balance, there cannot be more than 9\nstudents wearing the same color. In how many ways can this happen? Assume that the\nstudents are indistinguishable.\n(A) 71 (B) 73 (C) 79 (D) 85 (E) 91",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-01-page-3.jpg"
+    "image": "problem-pages/mock-amc10-01-page-3.jpg",
+    "latex_question": "For Color Day, $12$ students in a class are to be randomly assigned a T-shirt to wear with one of three colors: red, blue, and yellow. A color may be worn by as few as $0$ students. However, since the teacher wants color balance, there cannot be more than $9$ students wearing the same color. In how many ways can this happen? Assume that the students are indistinguishable.",
+    "latex_choices": [
+      "71",
+      "73",
+      "79",
+      "85",
+      "91"
+    ]
   },
   {
     "id": "mock-amc10-01-14",
@@ -525,7 +629,15 @@
     "question": "14. Let n be a five-digit positive integer. Let A be the sum of the digits of n, and let B\nbe the sum of the digits of n + 1. Among all positive integers n such that A + B = 50,\nfind the remainder when the greatest such n is divided by 1000.\n(A) 206 (B) 207 (C) 208 (D) 209 (E) 210",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-01-page-3.jpg"
+    "image": "problem-pages/mock-amc10-01-page-3.jpg",
+    "latex_question": "Let $n$ be a five-digit positive integer. Let $A$ be the sum of the digits of $n$, and let $B$ be the sum of the digits of $n+1$. Among all positive integers $n$ such that\n$\nA+B=50,\n$\nfind the remainder when the greatest such $n$ is divided by $1000$.",
+    "latex_choices": [
+      "206",
+      "207",
+      "208",
+      "209",
+      "210"
+    ]
   },
   {
     "id": "mock-amc10-01-15",
@@ -537,7 +649,15 @@
     "question": "15. Let △ABC be isosceles with AB = AC. Let D be the reflection of B across the\ncentroid of the triangle and M be the midpoint of BC. If the area of quadrilateral\nADM B is 6 and BC = 4, then what is the square of length AB?\n(A) 10 (B) 11 (C) 12 (D) 13 (E) 14",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-01-page-3.jpg"
+    "image": "problem-pages/mock-amc10-01-page-3.jpg",
+    "latex_question": "Let $\\triangle{ABC}$ be isosceles with $AB=AC$. Let $D$ be the reflection of $B$ across the centroid of the triangle and $M$ be the midpoint of $\\overline{BC}$. If the area of quadrilateral $ADMB$ is $6$ and $BC=4$, then what is the square of length $AB$?",
+    "latex_choices": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ]
   },
   {
     "id": "mock-amc10-01-16",
@@ -549,7 +669,15 @@
     "question": "16. Arnold and Betty play a game. They each randomly write an integer between 1 and\n6, inclusive, on a sheet of paper. Then, a fair six-sided dice is rolled. A person wins if\nthe number they wrote down is closer to the number rolled on the dice than the other\nperson’s number is. The game results in a draw if the two numbers that were written are\nthe same distance from the number rolled. What is the probability that Arnold wins?\n(A) 1\n18 (B) 2\n9 (C) 1\n3 (D) 7\n18 (E) 1\n2",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-01-page-3.jpg"
+    "image": "problem-pages/mock-amc10-01-page-3.jpg",
+    "latex_question": "Arnold and Betty play a game. They each randomly write an integer between $1$ and $6$, inclusive, on a sheet of paper. Then, a fair six-sided dice is rolled. A person wins if the number they wrote down is closer to the number rolled on the dice than the other person's number is. The game results in a draw if the two numbers that were written are the same distance from the number rolled. What is the probability that Arnold wins?",
+    "latex_choices": [
+      "$\\frac{1}{18}$",
+      "$\\frac{2}{9}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{7}{18}$",
+      "$\\frac{1}{2}$"
+    ]
   },
   {
     "id": "mock-amc10-01-17",
@@ -561,7 +689,15 @@
     "question": "17. Positive integers m and n satisfy\ngcd(m, n)\n75 = 1\nm and lcm(m, n)\n300 = 1\nn ,\nwhere gcd(m, n) denotes the greatest common divisor of m and n, and lcm(m, n) denotes\ntheir least common multiple. What is the sum of all possible values of m + n?\n(A) 25 (B) 52 (C) 75 (D) 102 (E) 145",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 3,
-    "image": "problem-pages/mock-amc10-01-page-3.jpg"
+    "image": "problem-pages/mock-amc10-01-page-3.jpg",
+    "latex_question": "Positive integers $m$ and $n$ satisfy$$\\frac{\\gcd(m,n)}{75}=\\frac{1}{m} \\ \\text{and} \\  \\frac{\\text{lcm}(m,n)}{300}=\\frac{1}{n},$$where $\\text{gcd}(m,n)$ denotes the greatest common divisor of $m$ and $n$, and $\\text{lcm}(m,n)$ denotes their least common multiple. What is the sum of all possible values of $m+n$?",
+    "latex_choices": [
+      "25",
+      "52",
+      "75",
+      "102",
+      "145"
+    ]
   },
   {
     "id": "mock-amc10-01-18",
@@ -573,7 +709,15 @@
     "question": "18. Edwin has two chess pieces that he places both on the center square of a 5 × 5\nchessboard. He sets a border one square wide on the edges of the chessboard, leaving a 3×3\narea in the middle. In one move, each piece moves as follows: The white piece moves one\nsquare either vertically or horizontally and then two squares in a perpendicular direction.\nThe black piece moves one square either vertically or horizontally. Each piece moves\nrepeatedly until it first lands on a square in the border, at which point it stops moving. If\nboth pieces move randomly but always abide by their rules, what is the probability that\nthe white and black pieces will end up on the same square after they each stop moving?\n(A) 1\n64 (B) 1\n16 (C) 1\n9 (D) 1\n4 (E) 1\n2",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-01-page-4.jpg"
+    "image": "problem-pages/mock-amc10-01-page-4.jpg",
+    "latex_question": "Edwin has two chess pieces that he places both on the center square of a $5\\times 5$ chessboard. He sets a border one square wide on the edges of the chessboard, leaving a $3\\times 3$ area in the middle. In one move, each piece moves as follows:\nThe white piece moves one square either vertically or horizontally and then two squares in a perpendicular direction.\nThe black piece moves one square either vertically or horizontally.\nEach piece moves repeatedly until it first lands on a square in the border, at which point it stops moving. If both pieces move randomly but always abide by their rules, what is the probability that the white and black pieces will end up on the same square after they each stop moving?",
+    "latex_choices": [
+      "$\\frac{1}{64}$",
+      "$\\frac{1}{16}$",
+      "$\\frac{1}{9}$",
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{2}$"
+    ]
   },
   {
     "id": "mock-amc10-01-19",
@@ -585,7 +729,15 @@
     "question": "19. There are two 2-digit prime numbers p less than 30 such that when the quantity\n22020 + 191010 is divided by p, the result is an integer. What is the sum of these primes?\n(A) 30 (B) 36 (C) 42 (D) 46 (E) 52",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-01-page-4.jpg"
+    "image": "problem-pages/mock-amc10-01-page-4.jpg",
+    "latex_question": "There are two $2$-digit prime numbers $p$ less than $30$ such that when the quantity $2^{2020}+19^{1010}$ is divided by $p$, the result is an integer. What is the sum of these primes?",
+    "latex_choices": [
+      "30",
+      "36",
+      "42",
+      "46",
+      "52"
+    ]
   },
   {
     "id": "mock-amc10-01-20",
@@ -597,7 +749,15 @@
     "question": "20. There are n integers x in the interval 2 ≤ x ≤ 2020 such that when each of the values\n$\nx10\nx − 1\n%\nand\n$\nx9\nx − 1\n%\nare divided by 48, their remainders are equal. What is the sum of the digits of n? (Here,\n⌊r⌋ denotes the greatest integer less than or equal to r.)\n(A) 12 (B) 13 (C) 14 (D) 15 (E) 16",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-01-page-4.jpg"
+    "image": "problem-pages/mock-amc10-01-page-4.jpg",
+    "latex_question": "There are $n$ integers $x$ in the interval $2\\le x \\le 2020$ such that when each of the values$$\\left\\lfloor\\frac{x^{10}}{x-1}\\right\\rfloor \\ \\text{and} \\  \\left\\lfloor\\frac{x^{9}}{x-1}\\right\\rfloor$$are divided by $48$, their remainders are equal. What is the sum of the digits of $n$? (Here, $\\lfloor r \\rfloor$ denotes the greatest integer less than or equal to $r$.)",
+    "latex_choices": [
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ]
   },
   {
     "id": "mock-amc10-01-21",
@@ -609,7 +769,15 @@
     "question": "21. Let ( B, J) be an ordered pair of positive integers such that either B + J = 60 or\nBJ = 60. Bela is assigned the number B and Jenn is assigned the number J. Each of\nthem only knows their own number and that either B + J = 60 or BJ = 60. Once they\nare assigned their numbers, Bela says, ”I don’t know your number.” Then, Jenn replies,\n”I don’t know your number.” How many possible ordered pairs ( B, J) exist, if Bela and\nJenn always tell the truth and are infinitely intelligent?\n(A) 0 (B) 1 (C) 2 (D) 3 (E) 4 or more",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-01-page-4.jpg"
+    "image": "problem-pages/mock-amc10-01-page-4.jpg",
+    "latex_question": "Let $(B, J)$ be an ordered pair of positive integers such that either $B+J=60$ or $BJ=60$. Bela is assigned the number $B$ and Jenn is assigned the number $J$. Each of them only knows their own number and that either $B+J=60$ or $BJ=60$. Once they are assigned their numbers, Bela says, \"I don't know your number.\" Then, Jenn replies, \"I don't know your number.\" How many possible ordered pairs $(B, J)$ exist, if Bela and Jenn always tell the truth and are infinitely intelligent?",
+    "latex_choices": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4 or more"
+    ]
   },
   {
     "id": "mock-amc10-01-22",
@@ -621,7 +789,15 @@
     "question": "22. A pyramid ABCDE has square base ABCD and apex E such that AE = BE =\nCE = DE. Suppose the planes determined by △ABE and △BCE form a 120 ◦ angle. If\nAB = 2\n√\n3, what is AE?\n(A)\n√\n3 (B) 3 (C) 2\n√\n3 (D) 4 (E) 2\n√\n5",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 4,
-    "image": "problem-pages/mock-amc10-01-page-4.jpg"
+    "image": "problem-pages/mock-amc10-01-page-4.jpg",
+    "latex_question": "A pyramid $ABCDE$ has square base $ABCD$ and apex $E$ such that $AE = BE = CE = DE$. Suppose the planes determined by $\\triangle ABE$ and $\\triangle BCE$ form a $120^{\\circ}$ angle. If $AB = 2\\sqrt{3}$, what is $AE?$",
+    "latex_choices": [
+      "$\\sqrt{3}$",
+      "3",
+      "$2\\sqrt{3}$",
+      "4",
+      "$2\\sqrt{5}$"
+    ]
   },
   {
     "id": "mock-amc10-01-23",
@@ -633,7 +809,15 @@
     "question": "23. In a room with 10 people, each person knows exactly 4 different languages. A conver-\nsation is held between every pair of people with a language in common. If a total of 36\ndifferent languages are known throughout the room, and no two people have more than\none language in common, what is the sum of all possible values of n such that a total of\nn conversations are held?\n(A) 19 (B) 25 (C) 32 (D) 35 (E) 37",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 5,
-    "image": "problem-pages/mock-amc10-01-page-5.jpg"
+    "image": "problem-pages/mock-amc10-01-page-5.jpg",
+    "latex_question": "In a room with $10$ people, each person knows exactly $4$ different languages. A conversation is held between every pair of people with a language in common. If a total of $36$ different languages are known throughout the room, and no two people have more than one language in common, what is the sum of all possible values of $n$ such that a total of $n$ conversations are held?",
+    "latex_choices": [
+      "19",
+      "25",
+      "32",
+      "35",
+      "37"
+    ]
   },
   {
     "id": "mock-amc10-01-24",
@@ -645,7 +829,15 @@
     "question": "24. For distinct positive integers ( a, b) with a < b , consider rational numbers that can\nbe expressed in the form 1\na + 1\nb . Some such rational numbers have at least two different\nrepresentations. For example, 7\n12 = 1\n2 + 1\n12 = 1\n3 + 1\n4 . Let x be the fifth biggest rational\nnumber having at least two different representations of this form. Find 360 x.\n(A) 120 (B) 126 (C) 132 (D) 138 (E) 144",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 5,
-    "image": "problem-pages/mock-amc10-01-page-5.jpg"
+    "image": "problem-pages/mock-amc10-01-page-5.jpg",
+    "latex_question": "For distinct positive integers $(a,b)$ with $a<b$, consider rational numbers that can be expressed in the form\n$\n\\frac{1}{a}+\\frac{1}{b}.\n$\nSome such rational numbers have at least two different representations. For example,\n$\n\\frac{7}{12}=\\frac{1}{2}+\\frac{1}{12}=\\frac{1}{3}+\\frac{1}{4}.\n$\nLet $x$ be the fifth biggest rational number having at least two different representations of this form. Find\n$\n360x$.",
+    "latex_choices": [
+      "120",
+      "126",
+      "132",
+      "138",
+      "144"
+    ]
   },
   {
     "id": "mock-amc10-01-25",
@@ -657,7 +849,15 @@
     "question": "25. Let O1 be a circle with radius r. Let O2 be a circle with radius between r\n2 and\nr, exclusive, that goes through the center of circle O1. Denote points X and Y as the\nintersections of the two circles. Let P be a point on the major arc XY of O1. Let P X\nintersect O2 at A, strictly between P and X. Let P Y intersect O2 at B, strictly between\nP and Y . Let E be the midpoint of P X and F be the midpoint of P Y . If AY = 100,\nAB = 65, and EF = 52, what is BX?\n(A) 104 (B) 105 (C) 106 (D) 107 (E) 108",
     "source": "mock-tests/mock-amc10-01.pdf",
     "page": 5,
-    "image": "problem-pages/mock-amc10-01-page-5.jpg"
+    "image": "problem-pages/mock-amc10-01-page-5.jpg",
+    "latex_question": "Let $O_1$ be a circle with radius $r$. Let $O_2$ be a circle with radius between $\\frac{r}{2}$ and $r$, exclusive, that goes through the center of circle $O_1$. Denote points $X$ and $Y$ as the intersections of the two circles. Let $P$ be a point on the major arc $\\overarc{XY}$ of $O_1$. Let $\\overline{PX}$ intersect $O_2$ at $A$, strictly between $P$ and $X$. Let $\\overline{PY}$ intersect $O_2$ at $B$, strictly between $P$ and $Y$. Let $E$ be the midpoint of $\\overline{PX}$ and $F$ be the midpoint of $\\overline{PY}$. If $AY = 100$, $AB = 65$, and $EF = 52$, what is $BX$?",
+    "latex_choices": [
+      "104",
+      "105",
+      "106",
+      "107",
+      "108"
+    ]
   },
   {
     "id": "mock-amc10-02-01",
