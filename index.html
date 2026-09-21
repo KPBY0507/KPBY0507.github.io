@@ -21,6 +21,16 @@
     .toast{position:fixed;right:24px;bottom:24px;transform:translateY(100px);opacity:0;background:var(--ink);color:#fff;border-radius:10px;padding:14px 17px;box-shadow:0 10px 30px #0003;transition:.25s;font-size:14px}.toast.show{transform:none;opacity:1}.modal{position:fixed;inset:0;background:#071022a8;display:none;align-items:center;justify-content:center;padding:20px;z-index:10}.modal.open{display:flex}.dialog{position:relative;background:#fff;width:min(680px,100%);border-radius:16px;padding:30px;box-shadow:0 18px 50px #0005}.close{position:absolute;right:16px;top:14px;border:0;background:transparent;font-size:25px;color:#687080}.dialog-kicker{color:var(--blue);font-size:13px;font-weight:850;letter-spacing:.07em}.dialog h2{font:700 28px Georgia,serif;margin:7px 34px 18px 0}.question{font:17px/1.75 Georgia,serif;background:#f6f7fa;padding:18px;border-radius:10px}.answers{display:grid;gap:9px;margin:18px 0}.answer{border:1px solid var(--line);background:#fff;border-radius:8px;text-align:left;padding:11px 13px;font-size:15px}.answer.selected{border-color:var(--blue);background:#edf1fc;color:var(--blue);font-weight:800}.dialog-actions{display:flex;justify-content:space-between;gap:10px}.secondary,.primary{border-radius:8px;padding:10px 13px;font-weight:800}.secondary{border:1px solid var(--line);background:#fff;color:var(--ink)}.primary{border:0;background:var(--blue);color:#fff}.test-summary{display:flex;align-items:center;justify-content:space-between;background:#eef1fa;border-radius:9px;padding:12px;margin:16px 0}.test-summary b{color:var(--blue)}@media(max-width:900px){.shell{padding:0 20px}.main-grid{grid-template-columns:1fr}.main-grid aside{padding-top:0}.top-in{gap:20px}.nav{display:none}.heading h1{font-size:31px}.progress{padding:18px}.continue{display:none}}@media(max-width:520px){.profile{font-size:0}.problem{grid-template-columns:60px 1fr}.solve{display:none}.choices{grid-template-columns:1fr 1fr}.heading{display:block}.ring{width:62px;height:62px}.ring:after{width:48px;height:48px}.dialog{padding:24px 18px}.dialog h2{font-size:24px}}
     .dialog{width:min(760px,100%);max-height:92vh;overflow:auto}.page-note{font-size:13px;color:var(--muted);margin:0 0 10px}.question-image{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:8px;background:#fff}.latex-content{font:17px/1.75 Georgia,serif;background:#f6f7fa;padding:18px;border-radius:10px}.latex-choices{display:grid;gap:9px;margin-top:16px}.dialog-actions{margin-top:18px}
   </style>
+  <style>
+    .answer-prompt{margin:18px 0 8px;font-weight:800;color:var(--ink)}
+    .answer[role="button"]{cursor:pointer;transition:border-color .15s,background .15s,transform .15s}
+    .answer[role="button"]:hover,.answer[role="button"]:focus-visible{border-color:var(--blue);background:#f2f5fc;outline:2px solid transparent;transform:translateY(-1px)}
+    .answer[aria-disabled="true"]{cursor:default;transform:none}
+    .answer.correct{border-color:#16815c;background:#eaf7f1;color:#0c6848;font-weight:800}
+    .answer.wrong{border-color:#c94b4b;background:#fff0f0;color:#9d2f2f;font-weight:800}
+    .answer-feedback{display:none;margin:14px 0 4px;border-radius:8px;padding:12px 14px;font-weight:800}
+    .answer-feedback.show{display:block}.answer-feedback.is-correct{background:#eaf7f1;color:#0c6848}.answer-feedback.is-wrong{background:#fff0f0;color:#9d2f2f}
+  </style>
 </head>
 <body>
   <header class="top"><div class="shell top-in"><a class="brand" href="#top" onclick="goHome(event)">Proof<i>Lab</i></a><nav class="nav"><a class="active" href="#library">Problem Library</a><a href="#mock">Practice Tests</a><a href="#" onclick="showStats(event)">My Learning</a><a href="#" onclick="showCommunity(event)">Community</a></nav><a class="signin" href="#" onclick="showAccount(event)">Create account / Sign in</a></div></header>
@@ -63,6 +73,62 @@
     showAccount=function(e){
       if(e)e.preventDefault();
       openModal('<div class="dialog-kicker">PROOFLAB ACCOUNT</div><h2 id="dialogTitle">Accounts are coming next</h2><p>This public GitHub Pages edition supports the full problem library and practice builder. Secure account sync will be enabled when the member backend is connected.</p><div class="dialog-actions"><button class="primary" onclick="closeModal()">Continue practicing</button></div>');
+    };
+  </script>
+  <script>
+    const mockAMC10Set2AnswerKey=Object.fromEntries(
+      ['C','E','B','E','D','D','D','C','B','C','D','B','D','A','A','C','C','C','B','C','B','E','D','E','C']
+        .map((answer,index)=>[`mock-amc10-02-${String(index+1).padStart(2,'0')}`,answer])
+    );
+    const openLibraryQuestionWithGrading=openLibraryQuestion;
+    openLibraryQuestion=function(id){
+      openLibraryQuestionWithGrading(id);
+      const correct=mockAMC10Set2AnswerKey[id];
+      if(!correct)return;
+      const problem=importedProblems.find(item=>item.id===id);
+      const dialogContent=qs('#dialogContent');
+      let choices=qs('#latexChoices');
+      if(!choices&&problem?.latex_choices){
+        choices=document.createElement('div');
+        choices.id='latexChoices';
+        choices.className='latex-choices';
+        choices.innerHTML=problem.latex_choices.map((choice,index)=>`<div class="answer">${'ABCDE'[index]}. ${choice}</div>`).join('');
+        dialogContent.querySelector('.dialog-actions')?.before(choices);
+        setTimeout(()=>window.MathJax?.typesetPromise?.([choices]),120);
+      }
+      if(!choices)return;
+      const prompt=document.createElement('p');
+      prompt.className='answer-prompt';
+      prompt.textContent='Choose one answer.';
+      choices.before(prompt);
+      const feedback=document.createElement('div');
+      feedback.className='answer-feedback';
+      feedback.setAttribute('role','status');
+      feedback.setAttribute('aria-live','polite');
+      choices.after(feedback);
+      const options=[...choices.querySelectorAll('.answer')];
+      options.forEach((option,index)=>{
+        const letter='ABCDE'[index];
+        option.setAttribute('role','button');
+        option.setAttribute('tabindex','0');
+        option.setAttribute('aria-label',`Answer ${letter}`);
+        const grade=()=>{
+          if(feedback.dataset.graded)return;
+          feedback.dataset.graded='true';
+          options.forEach((item,itemIndex)=>{
+            item.setAttribute('aria-disabled','true');
+            if('ABCDE'[itemIndex]===correct)item.classList.add('correct');
+          });
+          const isCorrect=letter===correct;
+          if(!isCorrect)option.classList.add('wrong');
+          feedback.textContent=isCorrect?'Correct!':`Incorrect. The correct answer is ${correct}.`;
+          feedback.classList.add('show',isCorrect?'is-correct':'is-wrong');
+        };
+        option.addEventListener('click',grade);
+        option.addEventListener('keydown',event=>{
+          if(event.key==='Enter'||event.key===' '){event.preventDefault();grade();}
+        });
+      });
     };
   </script>
 </body></html>
