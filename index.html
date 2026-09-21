@@ -58,4 +58,11 @@
       return openLibraryQuestionWithFallback(id);
     };
   </script>
+  <script>
+    document.querySelector('.signin').textContent='Account preview';
+    showAccount=function(e){
+      if(e)e.preventDefault();
+      openModal('<div class="dialog-kicker">PROOFLAB ACCOUNT</div><h2 id="dialogTitle">Accounts are coming next</h2><p>This public GitHub Pages edition supports the full problem library and practice builder. Secure account sync will be enabled when the member backend is connected.</p><div class="dialog-actions"><button class="primary" onclick="closeModal()">Continue practicing</button></div>');
+    };
+  </script>
 </body></html>
