@@ -76,14 +76,20 @@
     };
   </script>
   <script>
-    const mockAMC10Set2AnswerKey=Object.fromEntries(
-      ['C','E','B','E','D','D','D','C','B','C','D','B','D','A','A','C','C','C','B','C','B','E','D','E','C']
-        .map((answer,index)=>[`mock-amc10-02-${String(index+1).padStart(2,'0')}`,answer])
+    const mockAMC10AnswerKey=Object.fromEntries(
+      Object.entries({
+        '01':['D','E','E','D','B','E','E','A','B','D','C','A','B','D','D','D','D','B','C','A','C','B','C','C','B'],
+        '02':['C','E','B','E','D','D','D','C','B','C','D','B','D','A','A','C','C','C','B','C','B','E','D','E','C'],
+        '03':['D','C','A','C','E','E','E','C','B','A','C','B','A','D','A','B','B','D','C','E','D','A','C','E','A']
+      }).flatMap(([set,answers])=>answers.map((answer,index)=>[
+        `mock-amc10-${set}-${String(index+1).padStart(2,'0')}`,
+        answer
+      ]))
     );
     const openLibraryQuestionWithGrading=openLibraryQuestion;
     openLibraryQuestion=function(id){
       openLibraryQuestionWithGrading(id);
-      const correct=mockAMC10Set2AnswerKey[id];
+      const correct=mockAMC10AnswerKey[id];
       if(!correct)return;
       const problem=importedProblems.find(item=>item.id===id);
       const dialogContent=qs('#dialogContent');
