@@ -44,4 +44,18 @@
     function openLibraryQuestion(id){const p=importedProblems.find(x=>x.id===id);if(!p)return;if(p.latex_question){openModal('<div class="dialog-kicker" id="sourceLabel"></div><h2 id="dialogTitle"></h2><div class="latex-content" id="latexQuestion"></div><div class="latex-choices" id="latexChoices"></div><div class="dialog-actions"><button class="secondary" onclick="closeModal()">Back to library</button><a class="primary" id="sourcePdf" target="_blank" rel="noopener">Original PDF</a></div>');qs('#sourceLabel').textContent=`${p.exam} · ${p.difficulty} · ${p.topic} · LaTeX`;qs('#dialogTitle').textContent=`${p.test} · Problem ${p.number}`;qs('#latexQuestion').innerHTML=p.latex_question.replace(/\n/g,'<br>');qs('#latexChoices').innerHTML=p.latex_choices.map((choice,index)=>`<div class="answer">${'ABCDE'[index]}. ${choice}</div>`).join('');qs('#sourcePdf').href=p.source;const typeset=()=>{const target=qs('#dialogContent');if(window.MathJax?.typesetPromise){window.MathJax.typesetClear([target]);window.MathJax.typesetPromise([target])}};setTimeout(typeset,120);window.addEventListener('load',typeset,{once:true});return}openModal('<div class="dialog-kicker" id="sourceLabel"></div><h2 id="dialogTitle"></h2><p class="page-note" id="pageNote"></p><img class="question-image" id="problemImage" alt="Original problem image"><div class="dialog-actions"><button class="secondary" onclick="closeModal()">Back to library</button><a class="primary" id="sourcePdf" target="_blank" rel="noopener">Original PDF</a></div>');qs('#sourceLabel').textContent=`${p.exam} · ${p.difficulty} · ${p.topic}`;qs('#dialogTitle').textContent=`${p.test} · Problem ${p.number}`;qs('#pageNote').textContent=`Source page ${p.page} — formulas and diagrams are shown in the original image.`;qs('#problemImage').src=p.image;qs('#sourcePdf').href=p.source}
     const context=document.modelContext;if(context?.registerTool){try{void Promise.resolve(context.registerTool({name:'create_practice_test',title:'Create a custom practice test',description:'Creates an on-screen practice test from AMC 10, AMC 12, or AIME with the selected number of problems.',inputSchema:{type:'object',properties:{exam:{type:'string',enum:['AMC 10','AMC 12','AIME']},count:{type:'integer',enum:[5,10,15,20,25]}},required:['exam','count'],additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:false},execute(input){if(!['AMC 10','AMC 12','AIME'].includes(input.exam)||![5,10,15,20,25].includes(input.count))throw new Error('Unsupported exam or problem count.');exam=input.exam;qs('#range').value=input.count;qsa('#exam .choice').forEach(x=>x.classList.toggle('on',x.textContent===exam));update();return makeTest()}})).catch(()=>{})}catch(e){}}
   </script>
+  <script>
+    const openLibraryQuestionWithFallback = openLibraryQuestion;
+    openLibraryQuestion = function(id){
+      const p=importedProblems.find(x=>x.id===id);
+      if(p?.latex_question?.includes('\\begin{asy}')){
+        const latex=p.latex_question;
+        delete p.latex_question;
+        openLibraryQuestionWithFallback(id);
+        p.latex_question=latex;
+        return;
+      }
+      return openLibraryQuestionWithFallback(id);
+    };
+  </script>
 </body></html>
